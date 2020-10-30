@@ -155,74 +155,90 @@ let hiragana_categories = [
 
 var ACCURACY_TABLE = AccuracyTable()
 
-let categories = [
-    Category(label: "Dojo", hiragana_label: "あ", id: "dojo", accuracyTable: ACCURACY_TABLE,
-             categories: [
-                "vowels",
-                "k_consonants",
-                "s_consonants",
-                "t_consonants",
-                "n_consonants",
-                "h_consonants"
-             ]),
-    Category(label: "Vowels", hiragana_label: "あ", id: "vowels", accuracyTable: ACCURACY_TABLE,
-             categories: [
-                "vowels"
-             ]),
-    Category(label: "K Consonants", hiragana_label: "か", id: "k_consonants", accuracyTable: ACCURACY_TABLE,
-             categories: [
-                "k_consonants"
-             ]),
-    Category(label: "S Consonants", hiragana_label: "さ", id: "s_consonants", accuracyTable: ACCURACY_TABLE,
-             categories: [
-                "s_consonants"
-             ]),
-    Category(label: "T Consonants", hiragana_label: "た", id: "t_consonants", accuracyTable: ACCURACY_TABLE,
-             categories: [
-                "t_consonants"
-             ]),
-    Category(label: "N Consonants", hiragana_label: "な", id: "n_consonants", accuracyTable: ACCURACY_TABLE,
-             categories: [
-                "n_consonants"
-             ]),
-    Category(label: "H Consonants", hiragana_label: "は", id: "h_consonants", accuracyTable: ACCURACY_TABLE,
-             categories: [
-                "h_consonants"
-             ]),
-    Category(label: "M Consonants", hiragana_label: "ま", id: "m_consonants", accuracyTable: ACCURACY_TABLE,
-             categories: [
-                "m_consonants"
-             ]),
-    Category(label: "Y Consonants", hiragana_label: "や", id: "y_consonants", accuracyTable: ACCURACY_TABLE,
-             categories: [
-                "y_consonants"
-             ]),
-    Category(label: "R Consonants", hiragana_label: "ら", id: "r_consonants", accuracyTable: ACCURACY_TABLE,
-             categories: [
-                "r_consonants"
-             ]),
-    Category(label: "W Consonants", hiragana_label: "わ", id: "w_consonants", accuracyTable: ACCURACY_TABLE,
-             categories: [
-                "w_consonants"
-             ]),
-    Category(label: "G Dakuten", hiragana_label: "ら", id: "dakuten_k", accuracyTable: ACCURACY_TABLE,
-             categories: [
-                "r_consonants"
-             ]),
-    Category(label: "Z Dakuten", hiragana_label: "ら", id: "dakuten_s", accuracyTable: ACCURACY_TABLE,
-             categories: [
-                "dakuten_s"
-             ]),
-    Category(label: "D Dakuten", hiragana_label: "ら", id: "dakuten_t", accuracyTable: ACCURACY_TABLE,
-             categories: [
-                "dakuten_t"
-             ]),
-    Category(label: "B Dakuten", hiragana_label: "ら", id: "dakuten_h_b", accuracyTable: ACCURACY_TABLE,
-             categories: [
-                "dakuten_h_b"
-             ]),
-    Category(label: "P Dakuten", hiragana_label: "ら", id: "dakuten_h_p", accuracyTable: ACCURACY_TABLE,
-             categories: [
-                "dakuten_h_p"
-             ]),
+let contexts = [
+    AssessmentContext(label: "Dojo", hiragana_label: "あ",
+                      id: "dojo", assessmentType: "practice",
+                      categories: [
+                        "vowels",
+                        "k_consonants",
+                        "s_consonants",
+                        "t_consonants",
+                        "n_consonants",
+                        "h_consonants"
+                      ]),
+    AssessmentContext(label: "Vowels", hiragana_label: "あ",
+                      id: "vowels", assessmentType: "practice",
+                      categories: [
+                        "vowels"
+                      ]),
+    AssessmentContext(label: "K Consonants", hiragana_label: "か",
+                      id: "k_consonants", assessmentType: "practice",
+                      categories: [
+                        "k_consonants"
+                      ]),
+    AssessmentContext(label: "S Consonants", hiragana_label: "さ",
+                      id: "s_consonants", assessmentType: "practice",
+                      categories: [
+                        "s_consonants"
+                      ]),
+    AssessmentContext(label: "T Consonants", hiragana_label: "た",
+                      id: "t_consonants", assessmentType: "practice",
+                      categories: [
+                        "t_consonants"
+                      ]),
+    AssessmentContext(label: "N Consonants", hiragana_label: "な",
+                      id: "n_consonants", assessmentType: "practice",
+                      categories: [
+                        "n_consonants"
+                      ]),
+    AssessmentContext(label: "H Consonants", hiragana_label: "は",
+                      id: "h_consonants", assessmentType: "practice",
+                      categories: [
+                        "h_consonants"
+                      ]),
+    AssessmentContext(label: "M Consonants", hiragana_label: "ま",
+                      id: "m_consonants", assessmentType: "practice",
+                      categories: [
+                        "m_consonants"
+                      ]),
+    AssessmentContext(label: "Y Consonants", hiragana_label: "や",
+                      id: "y_consonants", assessmentType: "practice",
+                      categories: [
+                        "y_consonants"
+                      ]),
+    AssessmentContext(label: "R Consonants", hiragana_label: "ら",
+                      id: "r_consonants", assessmentType: "practice",
+                      categories: [
+                        "r_consonants"
+                      ]),
+    AssessmentContext(label: "W Consonants", hiragana_label: "わ",
+                      id: "w_consonants", assessmentType: "practice",
+                      categories: [
+                        "w_consonants"
+                      ]),
+    AssessmentContext(label: "Dakuten G", hiragana_label: "が",
+                      id: "dakuten_k", assessmentType: "practice",
+                      categories: [
+                        "dakuten_k"
+                      ]),
+    AssessmentContext(label: "Dakuten Z", hiragana_label: "ざ",
+                      id: "dakuten_s", assessmentType: "practice",
+                      categories: [
+                        "dakuten_s"
+                      ]),
+    AssessmentContext(label: "Dakuten D", hiragana_label: "だ",
+                      id: "dakuten_t", assessmentType: "practice",
+                      categories: [
+                        "dakuten_t"
+                      ]),
+    AssessmentContext(label: "Dakuten B", hiragana_label: "び",
+                      id: "dakuten_h_b", assessmentType: "practice",
+                      categories: [
+                        "dakuten_h_b"
+                      ]),
+    AssessmentContext(label: "Dakuten P", hiragana_label: "ぴ",
+                      id: "dakuten_h_p", assessmentType: "practice",
+                      categories: [
+                        "dakuten_h_p"
+                      ]),
 ]

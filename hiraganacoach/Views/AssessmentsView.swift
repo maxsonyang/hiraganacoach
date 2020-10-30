@@ -11,8 +11,8 @@ struct AssessmentsView: View {
     
     var body: some View {
         NavigationView {
-            List(categories) { category in
-                category.frame(height: 60)
+            List(contexts) { context in
+                Category(context: context).frame(height: 60)
             }
             .navigationTitle("Practice")
         }

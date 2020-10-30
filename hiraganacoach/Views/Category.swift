@@ -11,24 +11,18 @@ import SwiftUI
 struct Category : Identifiable, View {
     
     
-    let label : String
-    let hiragana_label : String
-    var id: String
-    var accuracyTable : AccuracyTable
-    var categories : [String]
+    var context : AssessmentContext
+    var id : String
     
-    init(label : String, hiragana_label : String, id : String, accuracyTable : AccuracyTable, categories : [String]) {
-        self.label = label
-        self.hiragana_label = hiragana_label
-        self.id = id
-        self.accuracyTable = accuracyTable
-        self.categories = categories
+    init(context : AssessmentContext) {
+        self.context = context
+        self.id = context.id
     }
     
     var body : some View {
         
         NavigationLink(
-            destination: QuizView(categories: self.categories, accuracy_table: accuracyTable),
+            destination: QuizView(context: self.context),
             label: {
                 HStack {
                     ZStack {
@@ -37,12 +31,12 @@ struct Category : Identifiable, View {
                             .foregroundColor(.white)
                             .shadow(color: Color(hue: 1.0, saturation: 0.0, brightness: 0.701), radius: 1.0, x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/)
                                 .background(Color.white)
-                        Text(self.hiragana_label)
+                        Text(context.hiragana_label)
                             .font(.system(size: 36.0))
                             .fontWeight(.bold)
                     }
                     Spacer().frame(width: 20)
-                    Text(label)
+                    Text(context.label)
                         .font(.system(size: 32.0))
                     Spacer()
                 }

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		68692C2025434009003828F5 /* AssessmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68692C1F25434009003828F5 /* AssessmentsView.swift */; };
 		68692C28254342D3003828F5 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68692C27254342D3003828F5 /* Category.swift */; };
 		68692C2D25438985003828F5 /* QuestionRecommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68692C2C25438984003828F5 /* QuestionRecommendation.swift */; };
+		687C9213254BB8B3005B0755 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687C9212254BB8B3005B0755 /* Context.swift */; };
 		68986E9B2540B01B002C566A /* hiraganacoachApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68986E9A2540B01B002C566A /* hiraganacoachApp.swift */; };
 		68986E9D2540B01B002C566A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68986E9C2540B01B002C566A /* ContentView.swift */; };
 		68986E9F2540B01D002C566A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68986E9E2540B01D002C566A /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 		68692C1F25434009003828F5 /* AssessmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentsView.swift; sourceTree = "<group>"; };
 		68692C27254342D3003828F5 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		68692C2C25438984003828F5 /* QuestionRecommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionRecommendation.swift; sourceTree = "<group>"; };
+		687C9212254BB8B3005B0755 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
 		68986E972540B01B002C566A /* hiraganacoach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hiraganacoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68986E9A2540B01B002C566A /* hiraganacoachApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiraganacoachApp.swift; sourceTree = "<group>"; };
 		68986E9C2540B01B002C566A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -116,7 +118,6 @@
 				BE59EC43D683156283C012A6 /* Pods-hiraganacoachTests.debug.xcconfig */,
 				B89B860BBBFC53BCD831C16E /* Pods-hiraganacoachTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -138,6 +139,7 @@
 				68692C2C25438984003828F5 /* QuestionRecommendation.swift */,
 				6849DD97254B71B200FC8C86 /* Assessment.swift */,
 				68986EE62540CCA9002C566A /* hiraganadata.swift */,
+				687C9212254BB8B3005B0755 /* Context.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -462,6 +464,7 @@
 				68692C28254342D3003828F5 /* Category.swift in Sources */,
 				6849DD98254B71B200FC8C86 /* Assessment.swift in Sources */,
 				68986E9B2540B01B002C566A /* hiraganacoachApp.swift in Sources */,
+				687C9213254BB8B3005B0755 /* Context.swift in Sources */,
 				68986EE72540CCA9002C566A /* hiraganadata.swift in Sources */,
 				68986EA72540B01D002C566A /* hiraganacoach.xcdatamodeld in Sources */,
 			);
