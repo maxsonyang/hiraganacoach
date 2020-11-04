@@ -153,19 +153,10 @@ let hiragana_categories = [
 
 // Category Labels
 
-var ACCURACY_TABLE = AccuracyTable()
-
 let contexts = [
     AssessmentContext(label: "Dojo", hiragana_label: "あ",
                       id: "dojo", assessmentType: "practice",
-                      categories: [
-                        "vowels",
-                        "k_consonants",
-                        "s_consonants",
-                        "t_consonants",
-                        "n_consonants",
-                        "h_consonants"
-                      ]),
+                      categories: getMasteredCategories()),
     AssessmentContext(label: "Vowels", hiragana_label: "あ",
                       id: "vowels", assessmentType: "practice",
                       categories: [
@@ -242,3 +233,5 @@ let contexts = [
                         "dakuten_h_p"
                       ]),
 ]
+
+let ASSESSMENT = Assessment()

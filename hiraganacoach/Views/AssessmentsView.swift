@@ -11,10 +11,18 @@ struct AssessmentsView: View {
     
     var body: some View {
         NavigationView {
-            List(contexts) { context in
+            List(contexts.filter {
+                !($0.characters.isEmpty)
+            }) { context in
                 Category(context: context).frame(height: 60)
             }
             .navigationTitle("Practice")
+            .navigationBarItems(trailing: NavigationLink(
+                                    destination: SettingsView(),
+                                    label: {
+                                        Image(systemName: "gear")
+                                            .foregroundColor(.gray)
+                                    }))
         }
     }
 }

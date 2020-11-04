@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>232E6E95-B7B7-4E23-BDAA-5E016190CA7D</key>
+		<key>0620A933-6965-4F33-B426-04F3AAC7B699</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>232E6E95-B7B7-4E23-BDAA-5E016190CA7D.xcactivitylog</string>
+			<string>0620A933-6965-4F33-B426-04F3AAC7B699.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Run hiraganacoach</string>
 			<key>timeStartedRecording</key>
-			<real>625707164.99939096</real>
+			<real>626049003.47930098</real>
 			<key>timeStoppedRecording</key>
-			<real>625707170.88075697</real>
+			<real>626049096.89222598</real>
 			<key>title</key>
 			<string>Run hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>232E6E95-B7B7-4E23-BDAA-5E016190CA7D</string>
+			<string>0620A933-6965-4F33-B426-04F3AAC7B699</string>
 		</dict>
-		<key>2F0F61D8-D512-4B7A-9B98-003D999F0EA7</key>
+		<key>0745CA3C-2DEB-4E7F-96D4-99808C0C11C9</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>2F0F61D8-D512-4B7A-9B98-003D999F0EA7.xcactivitylog</string>
+			<string>0745CA3C-2DEB-4E7F-96D4-99808C0C11C9.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Run hiraganacoach</string>
 			<key>timeStartedRecording</key>
-			<real>625707323.91948199</real>
+			<real>626067629.47115695</real>
 			<key>timeStoppedRecording</key>
-			<real>625707453.82304502</real>
+			<real>626067701.347453</real>
 			<key>title</key>
 			<string>Run hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>2F0F61D8-D512-4B7A-9B98-003D999F0EA7</string>
+			<string>0745CA3C-2DEB-4E7F-96D4-99808C0C11C9</string>
 		</dict>
-		<key>3C9CCD4E-73D7-41F8-8F44-D85BBD92F78D</key>
+		<key>0B51BF22-522B-47A8-B106-E1C269CF8A68</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -83,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>3C9CCD4E-73D7-41F8-8F44-D85BBD92F78D.xcactivitylog</string>
+			<string>0B51BF22-522B-47A8-B106-E1C269CF8A68.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,15 +100,15 @@
 			<key>signature</key>
 			<string>Run hiraganacoach</string>
 			<key>timeStartedRecording</key>
-			<real>625707265.37266099</real>
+			<real>626071174.77388895</real>
 			<key>timeStoppedRecording</key>
-			<real>625707286.30438197</real>
+			<real>626071194.48252201</real>
 			<key>title</key>
 			<string>Run hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>3C9CCD4E-73D7-41F8-8F44-D85BBD92F78D</string>
+			<string>0B51BF22-522B-47A8-B106-E1C269CF8A68</string>
 		</dict>
-		<key>50F02C4E-4E69-4409-B9EE-C5B8370F4E08</key>
+		<key>0CDB66EB-9D1E-49D7-898B-E237FF767E3C</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -117,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>50F02C4E-4E69-4409-B9EE-C5B8370F4E08.xcactivitylog</string>
+			<string>0CDB66EB-9D1E-49D7-898B-E237FF767E3C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,15 +134,15 @@
 			<key>signature</key>
 			<string>Run hiraganacoach</string>
 			<key>timeStartedRecording</key>
-			<real>625707456.03104103</real>
+			<real>626071319.81296897</real>
 			<key>timeStoppedRecording</key>
-			<real>625707611.51627195</real>
+			<real>626071543.97950196</real>
 			<key>title</key>
 			<string>Run hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>50F02C4E-4E69-4409-B9EE-C5B8370F4E08</string>
+			<string>0CDB66EB-9D1E-49D7-898B-E237FF767E3C</string>
 		</dict>
-		<key>58D289A9-3482-4501-B611-042C3A8CBCBD</key>
+		<key>0D1DE5BF-359A-4303-A1D3-1726511ABF8F</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -151,7 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>58D289A9-3482-4501-B611-042C3A8CBCBD.xcactivitylog</string>
+			<string>0D1DE5BF-359A-4303-A1D3-1726511ABF8F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,15 +168,15 @@
 			<key>signature</key>
 			<string>Run hiraganacoach</string>
 			<key>timeStartedRecording</key>
-			<real>625707129.39850199</real>
+			<real>626070249.76348495</real>
 			<key>timeStoppedRecording</key>
-			<real>625707151.43844497</real>
+			<real>626070281.32151103</real>
 			<key>title</key>
 			<string>Run hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>58D289A9-3482-4501-B611-042C3A8CBCBD</string>
+			<string>0D1DE5BF-359A-4303-A1D3-1726511ABF8F</string>
 		</dict>
-		<key>5D79422D-DBF3-430C-A6E1-4FF54E0EADED</key>
+		<key>199365D3-B3B0-4FF7-AB3C-4310F2344AA3</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -185,7 +185,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>5D79422D-DBF3-430C-A6E1-4FF54E0EADED.xcactivitylog</string>
+			<string>199365D3-B3B0-4FF7-AB3C-4310F2344AA3.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -202,15 +202,15 @@
 			<key>signature</key>
 			<string>Run hiraganacoach</string>
 			<key>timeStartedRecording</key>
-			<real>625707637.31105494</real>
+			<real>626055427.82818198</real>
 			<key>timeStoppedRecording</key>
-			<real>625710826.92684197</real>
+			<real>626055774.07142997</real>
 			<key>title</key>
 			<string>Run hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>5D79422D-DBF3-430C-A6E1-4FF54E0EADED</string>
+			<string>199365D3-B3B0-4FF7-AB3C-4310F2344AA3</string>
 		</dict>
-		<key>96540F02-BB83-42D3-96D1-24EA3E5F697E</key>
+		<key>1B0D56FD-262B-4451-8A4F-99CA4B4D87EE</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -219,7 +219,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>96540F02-BB83-42D3-96D1-24EA3E5F697E.xcactivitylog</string>
+			<string>1B0D56FD-262B-4451-8A4F-99CA4B4D87EE.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -236,15 +236,15 @@
 			<key>signature</key>
 			<string>Run hiraganacoach</string>
 			<key>timeStartedRecording</key>
-			<real>625707246.01311302</real>
+			<real>626070086.99797797</real>
 			<key>timeStoppedRecording</key>
-			<real>625707247.47123504</real>
+			<real>626070103.09902799</real>
 			<key>title</key>
 			<string>Run hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>96540F02-BB83-42D3-96D1-24EA3E5F697E</string>
+			<string>1B0D56FD-262B-4451-8A4F-99CA4B4D87EE</string>
 		</dict>
-		<key>EEA389D4-ECE9-445C-A898-18065B9D0577</key>
+		<key>2525E339-FD89-4859-A424-87F1424BDA4C</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -253,7 +253,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>EEA389D4-ECE9-445C-A898-18065B9D0577.xcactivitylog</string>
+			<string>2525E339-FD89-4859-A424-87F1424BDA4C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -270,15 +270,15 @@
 			<key>signature</key>
 			<string>Run hiraganacoach</string>
 			<key>timeStartedRecording</key>
-			<real>625702759.96057701</real>
+			<real>626054470.65901196</real>
 			<key>timeStoppedRecording</key>
-			<real>625705643.83036005</real>
+			<real>626054640.97054005</real>
 			<key>title</key>
 			<string>Run hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>EEA389D4-ECE9-445C-A898-18065B9D0577</string>
+			<string>2525E339-FD89-4859-A424-87F1424BDA4C</string>
 		</dict>
-		<key>EF617278-82D1-4E08-B656-CFA9010E760D</key>
+		<key>25CFA381-A476-4CC9-8EAC-9654D77C23D0</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -287,7 +287,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>EF617278-82D1-4E08-B656-CFA9010E760D.xcactivitylog</string>
+			<string>25CFA381-A476-4CC9-8EAC-9654D77C23D0.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -304,15 +304,15 @@
 			<key>signature</key>
 			<string>Run hiraganacoach</string>
 			<key>timeStartedRecording</key>
-			<real>625707171.89619803</real>
+			<real>626044830.94981694</real>
 			<key>timeStoppedRecording</key>
-			<real>625707245.94332099</real>
+			<real>626044933.60874796</real>
 			<key>title</key>
 			<string>Run hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>EF617278-82D1-4E08-B656-CFA9010E760D</string>
+			<string>25CFA381-A476-4CC9-8EAC-9654D77C23D0</string>
 		</dict>
-		<key>F5977F3B-0AE4-4315-98FE-2A736145A4F1</key>
+		<key>2BFEC55A-C8C2-4D9C-907E-CD7D06358C8C</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -321,7 +321,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>F5977F3B-0AE4-4315-98FE-2A736145A4F1.xcactivitylog</string>
+			<string>2BFEC55A-C8C2-4D9C-907E-CD7D06358C8C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -338,13 +338,2631 @@
 			<key>signature</key>
 			<string>Run hiraganacoach</string>
 			<key>timeStartedRecording</key>
-			<real>625707286.90663898</real>
+			<real>626070530.90997601</real>
 			<key>timeStoppedRecording</key>
-			<real>625707321.74092603</real>
+			<real>626070543.00894701</real>
 			<key>title</key>
 			<string>Run hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>F5977F3B-0AE4-4315-98FE-2A736145A4F1</string>
+			<string>2BFEC55A-C8C2-4D9C-907E-CD7D06358C8C</string>
+		</dict>
+		<key>303109E0-0A03-4DF9-905A-293A3224FCB9</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>303109E0-0A03-4DF9-905A-293A3224FCB9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626044592.48256004</real>
+			<key>timeStoppedRecording</key>
+			<real>626044653.907951</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>303109E0-0A03-4DF9-905A-293A3224FCB9</string>
+		</dict>
+		<key>30BD2F31-A3B5-4755-9498-D9419E6B19A8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>30BD2F31-A3B5-4755-9498-D9419E6B19A8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626071670.161358</real>
+			<key>timeStoppedRecording</key>
+			<real>626071693.98222697</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>30BD2F31-A3B5-4755-9498-D9419E6B19A8</string>
+		</dict>
+		<key>33802750-4A41-4C82-9DEA-55AF7C98CD9F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>33802750-4A41-4C82-9DEA-55AF7C98CD9F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626055826.25641203</real>
+			<key>timeStoppedRecording</key>
+			<real>626055965.47108996</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>33802750-4A41-4C82-9DEA-55AF7C98CD9F</string>
+		</dict>
+		<key>3C0F941C-6DAA-4A2E-8B52-A2EF68D1897F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3C0F941C-6DAA-4A2E-8B52-A2EF68D1897F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626068792.66221702</real>
+			<key>timeStoppedRecording</key>
+			<real>626068811.09052801</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>3C0F941C-6DAA-4A2E-8B52-A2EF68D1897F</string>
+		</dict>
+		<key>4264F756-0E3A-4BE2-ACEC-F066A07A73FD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4264F756-0E3A-4BE2-ACEC-F066A07A73FD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626070285.02214396</real>
+			<key>timeStoppedRecording</key>
+			<real>626070289.33568096</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>4264F756-0E3A-4BE2-ACEC-F066A07A73FD</string>
+		</dict>
+		<key>4C2AD42A-DAAC-4E74-A057-415D167565D6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4C2AD42A-DAAC-4E74-A057-415D167565D6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626081417.01618695</real>
+			<key>timeStoppedRecording</key>
+			<real>626081517.22881401</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>4C2AD42A-DAAC-4E74-A057-415D167565D6</string>
+		</dict>
+		<key>501ABD41-4321-4385-A1C9-F2AF9FA5E210</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>501ABD41-4321-4385-A1C9-F2AF9FA5E210.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626069583.29377103</real>
+			<key>timeStoppedRecording</key>
+			<real>626069661.14097404</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>501ABD41-4321-4385-A1C9-F2AF9FA5E210</string>
+		</dict>
+		<key>53D13933-F07B-4501-AF54-8F93B4D61316</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>53D13933-F07B-4501-AF54-8F93B4D61316.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626056006.89182401</real>
+			<key>timeStoppedRecording</key>
+			<real>626056074.13279402</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>53D13933-F07B-4501-AF54-8F93B4D61316</string>
+		</dict>
+		<key>57488594-AA52-4D74-B01A-13CB01096694</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>57488594-AA52-4D74-B01A-13CB01096694.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626070408.23509395</real>
+			<key>timeStoppedRecording</key>
+			<real>626070423.87032402</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>57488594-AA52-4D74-B01A-13CB01096694</string>
+		</dict>
+		<key>58DF0620-C7D5-44B7-854D-B510B17BFAFD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>58DF0620-C7D5-44B7-854D-B510B17BFAFD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626044958.17112696</real>
+			<key>timeStoppedRecording</key>
+			<real>626045093.09223104</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>58DF0620-C7D5-44B7-854D-B510B17BFAFD</string>
+		</dict>
+		<key>59CF99AD-6D47-4304-B3EC-296536292132</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>59CF99AD-6D47-4304-B3EC-296536292132.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626055300.62154806</real>
+			<key>timeStoppedRecording</key>
+			<real>626055307.08549905</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>59CF99AD-6D47-4304-B3EC-296536292132</string>
+		</dict>
+		<key>61A28D08-9882-47F0-90CD-CA67A3D29581</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>61A28D08-9882-47F0-90CD-CA67A3D29581.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626080402.34581494</real>
+			<key>timeStoppedRecording</key>
+			<real>626080410.90931201</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>61A28D08-9882-47F0-90CD-CA67A3D29581</string>
+		</dict>
+		<key>65837953-499D-459E-8802-6F80FC5ECEBB</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>65837953-499D-459E-8802-6F80FC5ECEBB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626043948.86603296</real>
+			<key>timeStoppedRecording</key>
+			<real>626044154.34361899</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>65837953-499D-459E-8802-6F80FC5ECEBB</string>
+		</dict>
+		<key>68E8BF9B-16D9-4A92-B9D0-13A8DD92D4AA</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>68E8BF9B-16D9-4A92-B9D0-13A8DD92D4AA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626081182.98672104</real>
+			<key>timeStoppedRecording</key>
+			<real>626081225.86219704</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>68E8BF9B-16D9-4A92-B9D0-13A8DD92D4AA</string>
+		</dict>
+		<key>6D1DBAE1-30CE-492A-BA7E-729C8C10950E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6D1DBAE1-30CE-492A-BA7E-729C8C10950E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626051951.39879</real>
+			<key>timeStoppedRecording</key>
+			<real>626052709.379089</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>6D1DBAE1-30CE-492A-BA7E-729C8C10950E</string>
+		</dict>
+		<key>6E12A4F6-987F-4EFF-BE96-60B8126C673A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6E12A4F6-987F-4EFF-BE96-60B8126C673A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626080756.89639401</real>
+			<key>timeStoppedRecording</key>
+			<real>626080841.578776</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>6E12A4F6-987F-4EFF-BE96-60B8126C673A</string>
+		</dict>
+		<key>6E83E10D-F835-463E-A59D-DDC669F63181</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6E83E10D-F835-463E-A59D-DDC669F63181.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626044382.47249699</real>
+			<key>timeStoppedRecording</key>
+			<real>626044548.17020404</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>6E83E10D-F835-463E-A59D-DDC669F63181</string>
+		</dict>
+		<key>6EB0DC79-2C3E-43FD-90FF-961F964957EF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6EB0DC79-2C3E-43FD-90FF-961F964957EF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626043757.59797001</real>
+			<key>timeStoppedRecording</key>
+			<real>626043804.14876795</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>6EB0DC79-2C3E-43FD-90FF-961F964957EF</string>
+		</dict>
+		<key>7592D204-5843-4D67-9890-93DD8A3841D7</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7592D204-5843-4D67-9890-93DD8A3841D7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626043643.12982404</real>
+			<key>timeStoppedRecording</key>
+			<real>626043652.58139098</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>7592D204-5843-4D67-9890-93DD8A3841D7</string>
+		</dict>
+		<key>7BCB51A1-4B4E-4FAC-82EF-18785BC518E4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7BCB51A1-4B4E-4FAC-82EF-18785BC518E4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626054918.56800997</real>
+			<key>timeStoppedRecording</key>
+			<real>626054962.35365796</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>7BCB51A1-4B4E-4FAC-82EF-18785BC518E4</string>
+		</dict>
+		<key>7C15012F-C926-426C-812A-35921D36E0E5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7C15012F-C926-426C-812A-35921D36E0E5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626045201.18866801</real>
+			<key>timeStoppedRecording</key>
+			<real>626052708.47390902</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>7C15012F-C926-426C-812A-35921D36E0E5</string>
+		</dict>
+		<key>7D5A9B33-3F14-43B5-AFC3-375FF998A3EF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7D5A9B33-3F14-43B5-AFC3-375FF998A3EF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626071303.07166195</real>
+			<key>timeStoppedRecording</key>
+			<real>626071316.19842196</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>7D5A9B33-3F14-43B5-AFC3-375FF998A3EF</string>
+		</dict>
+		<key>7E0899D8-4CC7-4660-A534-1388877368FB</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7E0899D8-4CC7-4660-A534-1388877368FB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626043902.42473602</real>
+			<key>timeStoppedRecording</key>
+			<real>626043947.81181896</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>7E0899D8-4CC7-4660-A534-1388877368FB</string>
+		</dict>
+		<key>81BCEAEB-95E1-4BD0-8E30-E54F63C41BB3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>81BCEAEB-95E1-4BD0-8E30-E54F63C41BB3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626070207.79136598</real>
+			<key>timeStoppedRecording</key>
+			<real>626070223.40451002</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>81BCEAEB-95E1-4BD0-8E30-E54F63C41BB3</string>
+		</dict>
+		<key>8474108D-0F11-4BC5-A78C-2819E2C8CC15</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8474108D-0F11-4BC5-A78C-2819E2C8CC15.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626044942.18479002</real>
+			<key>timeStoppedRecording</key>
+			<real>626044957.58706605</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>8474108D-0F11-4BC5-A78C-2819E2C8CC15</string>
+		</dict>
+		<key>84B7BB1D-61A0-44FD-B36E-C5CB23A93654</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>84B7BB1D-61A0-44FD-B36E-C5CB23A93654.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626067779.73290801</real>
+			<key>timeStoppedRecording</key>
+			<real>626067824.83837104</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>84B7BB1D-61A0-44FD-B36E-C5CB23A93654</string>
+		</dict>
+		<key>865A4BE3-E3D1-44F5-B15B-C26732B08640</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>865A4BE3-E3D1-44F5-B15B-C26732B08640.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626071547.89785194</real>
+			<key>timeStoppedRecording</key>
+			<real>626071611.67155302</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>865A4BE3-E3D1-44F5-B15B-C26732B08640</string>
+		</dict>
+		<key>866757AE-E505-4D2A-85B2-85063148DB77</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>866757AE-E505-4D2A-85B2-85063148DB77.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626081674.72424996</real>
+			<key>timeStoppedRecording</key>
+			<real>626081786.03448606</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>866757AE-E505-4D2A-85B2-85063148DB77</string>
+		</dict>
+		<key>874A8605-0031-46DD-B4A0-619922076547</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>874A8605-0031-46DD-B4A0-619922076547.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626080912.20107996</real>
+			<key>timeStoppedRecording</key>
+			<real>626080986.21030903</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>874A8605-0031-46DD-B4A0-619922076547</string>
+		</dict>
+		<key>894CF81D-6ABA-4EB0-9DCA-8382CBAB8467</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>894CF81D-6ABA-4EB0-9DCA-8382CBAB8467.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626081229.76672399</real>
+			<key>timeStoppedRecording</key>
+			<real>626081413.36213005</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>894CF81D-6ABA-4EB0-9DCA-8382CBAB8467</string>
+		</dict>
+		<key>89BB327F-81FC-4474-ACA4-18E0745F5DD4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>89BB327F-81FC-4474-ACA4-18E0745F5DD4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626066643.32012904</real>
+			<key>timeStoppedRecording</key>
+			<real>626066779.18153906</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>89BB327F-81FC-4474-ACA4-18E0745F5DD4</string>
+		</dict>
+		<key>8C4FE43D-74C2-4F23-B0E6-C41024DEF56D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8C4FE43D-74C2-4F23-B0E6-C41024DEF56D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626080990.21089303</real>
+			<key>timeStoppedRecording</key>
+			<real>626081096.93822503</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>8C4FE43D-74C2-4F23-B0E6-C41024DEF56D</string>
+		</dict>
+		<key>919E2C61-6542-4E2F-897B-F69B2C62A948</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>919E2C61-6542-4E2F-897B-F69B2C62A948.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626071802.38818395</real>
+			<key>timeStoppedRecording</key>
+			<real>626071960.73623502</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>919E2C61-6542-4E2F-897B-F69B2C62A948</string>
+		</dict>
+		<key>930CF243-7B2C-40FB-8FCD-227DE957A5B5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>930CF243-7B2C-40FB-8FCD-227DE957A5B5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626055400.96050203</real>
+			<key>timeStoppedRecording</key>
+			<real>626055409.69141996</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>930CF243-7B2C-40FB-8FCD-227DE957A5B5</string>
+		</dict>
+		<key>93139019-9220-487F-BE65-0D70CC4D5675</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>93139019-9220-487F-BE65-0D70CC4D5675.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626067414.43138802</real>
+			<key>timeStoppedRecording</key>
+			<real>626067480.15172899</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>93139019-9220-487F-BE65-0D70CC4D5675</string>
+		</dict>
+		<key>96B1762F-6C7D-4272-9CE9-3517FD771BF3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>96B1762F-6C7D-4272-9CE9-3517FD771BF3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626042018.34546804</real>
+			<key>timeStoppedRecording</key>
+			<real>626042018.64595401</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>96B1762F-6C7D-4272-9CE9-3517FD771BF3</string>
+		</dict>
+		<key>97E838E2-C27E-4F96-8384-4354C1259DF2</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>97E838E2-C27E-4F96-8384-4354C1259DF2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626043652.63935006</real>
+			<key>timeStoppedRecording</key>
+			<real>626043678.670035</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>97E838E2-C27E-4F96-8384-4354C1259DF2</string>
+		</dict>
+		<key>9969D15C-6476-4E6F-AB1F-14479C0A2672</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9969D15C-6476-4E6F-AB1F-14479C0A2672.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626080060.29885495</real>
+			<key>timeStoppedRecording</key>
+			<real>626080398.13051403</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>9969D15C-6476-4E6F-AB1F-14479C0A2672</string>
+		</dict>
+		<key>996BE18A-A8F6-45C1-8463-828000B1A4F2</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>996BE18A-A8F6-45C1-8463-828000B1A4F2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626052723.93172002</real>
+			<key>timeStoppedRecording</key>
+			<real>626053281.522012</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>996BE18A-A8F6-45C1-8463-828000B1A4F2</string>
+		</dict>
+		<key>9B666E82-B37E-4A3C-9040-3349073AADBC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9B666E82-B37E-4A3C-9040-3349073AADBC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626043439.23560297</real>
+			<key>timeStoppedRecording</key>
+			<real>626043640.19546604</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>9B666E82-B37E-4A3C-9040-3349073AADBC</string>
+		</dict>
+		<key>9C84B782-2D39-47A1-947C-B89FB43ACEA4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9C84B782-2D39-47A1-947C-B89FB43ACEA4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626069874.84540701</real>
+			<key>timeStoppedRecording</key>
+			<real>626069894.38497102</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>9C84B782-2D39-47A1-947C-B89FB43ACEA4</string>
+		</dict>
+		<key>A53EDE2D-6809-4334-BE4B-AC9159891948</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A53EDE2D-6809-4334-BE4B-AC9159891948.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626081788.17272997</real>
+			<key>timeStoppedRecording</key>
+			<real>626081834.30504</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>A53EDE2D-6809-4334-BE4B-AC9159891948</string>
+		</dict>
+		<key>A9B946FB-0371-4F5C-8E2C-951E747C7BAD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A9B946FB-0371-4F5C-8E2C-951E747C7BAD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626067311.27553105</real>
+			<key>timeStoppedRecording</key>
+			<real>626067414.35675597</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>A9B946FB-0371-4F5C-8E2C-951E747C7BAD</string>
+		</dict>
+		<key>B167E870-6A93-48CD-A4D7-0AC4BBB8EF66</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B167E870-6A93-48CD-A4D7-0AC4BBB8EF66.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626043692.14312398</real>
+			<key>timeStoppedRecording</key>
+			<real>626043716.87891197</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>B167E870-6A93-48CD-A4D7-0AC4BBB8EF66</string>
+		</dict>
+		<key>B1E4DA5A-49FC-43EE-B8A6-FF4939A3D12A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B1E4DA5A-49FC-43EE-B8A6-FF4939A3D12A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626044366.20257199</real>
+			<key>timeStoppedRecording</key>
+			<real>626044379.75492001</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>B1E4DA5A-49FC-43EE-B8A6-FF4939A3D12A</string>
+		</dict>
+		<key>B477F18D-F34B-4E56-A581-355AF498A60F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B477F18D-F34B-4E56-A581-355AF498A60F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626052713.14523697</real>
+			<key>timeStoppedRecording</key>
+			<real>626052721.53079903</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>B477F18D-F34B-4E56-A581-355AF498A60F</string>
+		</dict>
+		<key>B51F6870-9100-4AD0-BBA5-4CBF49028BF2</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B51F6870-9100-4AD0-BBA5-4CBF49028BF2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626080720.93335998</real>
+			<key>timeStoppedRecording</key>
+			<real>626080752.80220103</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>B51F6870-9100-4AD0-BBA5-4CBF49028BF2</string>
+		</dict>
+		<key>B80BAC3D-01F2-4648-8992-068DB7D79B46</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B80BAC3D-01F2-4648-8992-068DB7D79B46.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626055985.24580705</real>
+			<key>timeStoppedRecording</key>
+			<real>626056005.84384298</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>B80BAC3D-01F2-4648-8992-068DB7D79B46</string>
+		</dict>
+		<key>BBF38842-E4B7-4B66-B26C-92760DFF950E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BBF38842-E4B7-4B66-B26C-92760DFF950E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626071198.05217695</real>
+			<key>timeStoppedRecording</key>
+			<real>626071299.06105006</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>BBF38842-E4B7-4B66-B26C-92760DFF950E</string>
+		</dict>
+		<key>BC2E46F3-785F-47A2-BA83-2CA49BC1206F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BC2E46F3-785F-47A2-BA83-2CA49BC1206F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626071134.042225</real>
+			<key>timeStoppedRecording</key>
+			<real>626071171.36169195</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>BC2E46F3-785F-47A2-BA83-2CA49BC1206F</string>
+		</dict>
+		<key>BDF1096D-C7E1-468D-A2CE-A870D424A7C8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BDF1096D-C7E1-468D-A2CE-A870D424A7C8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626070628.21805096</real>
+			<key>timeStoppedRecording</key>
+			<real>626070648.65856898</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>BDF1096D-C7E1-468D-A2CE-A870D424A7C8</string>
+		</dict>
+		<key>C396BC29-17F2-493C-809A-2DEA717EAA16</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C396BC29-17F2-493C-809A-2DEA717EAA16.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626044653.98715496</real>
+			<key>timeStoppedRecording</key>
+			<real>626044830.85341001</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>C396BC29-17F2-493C-809A-2DEA717EAA16</string>
+		</dict>
+		<key>C45B1D64-C671-42B4-80A3-65E8BB6770E4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C45B1D64-C671-42B4-80A3-65E8BB6770E4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626067281.21340597</real>
+			<key>timeStoppedRecording</key>
+			<real>626067303.49734902</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>C45B1D64-C671-42B4-80A3-65E8BB6770E4</string>
+		</dict>
+		<key>C7C1538B-3A04-41DD-82B1-23D61D8FED76</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C7C1538B-3A04-41DD-82B1-23D61D8FED76.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626043726.27943301</real>
+			<key>timeStoppedRecording</key>
+			<real>626043755.65391695</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>C7C1538B-3A04-41DD-82B1-23D61D8FED76</string>
+		</dict>
+		<key>C97ED172-309F-4A80-8125-6F6EF10772FD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C97ED172-309F-4A80-8125-6F6EF10772FD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626081578.17244697</real>
+			<key>timeStoppedRecording</key>
+			<real>626081636.89376605</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>C97ED172-309F-4A80-8125-6F6EF10772FD</string>
+		</dict>
+		<key>CA1FA59B-C5C4-4F3A-968B-0A08B74513ED</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>CA1FA59B-C5C4-4F3A-968B-0A08B74513ED.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626071052.54207802</real>
+			<key>timeStoppedRecording</key>
+			<real>626071069.466061</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>CA1FA59B-C5C4-4F3A-968B-0A08B74513ED</string>
+		</dict>
+		<key>CEC4F4A7-4273-46EB-86D3-A26686755D84</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>CEC4F4A7-4273-46EB-86D3-A26686755D84.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626081100.85205996</real>
+			<key>timeStoppedRecording</key>
+			<real>626081174.73640096</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>CEC4F4A7-4273-46EB-86D3-A26686755D84</string>
+		</dict>
+		<key>CFB59EAA-734F-43DE-8370-DA8A8C030A02</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>CFB59EAA-734F-43DE-8370-DA8A8C030A02.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626080845.64662504</real>
+			<key>timeStoppedRecording</key>
+			<real>626080908.24107397</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>CFB59EAA-734F-43DE-8370-DA8A8C030A02</string>
+		</dict>
+		<key>CFC4C39E-0ECB-42EF-93BD-926554D5E5D5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>CFC4C39E-0ECB-42EF-93BD-926554D5E5D5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626066781.56874299</real>
+			<key>timeStoppedRecording</key>
+			<real>626066856.10588598</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>CFC4C39E-0ECB-42EF-93BD-926554D5E5D5</string>
+		</dict>
+		<key>D63F7B61-3D52-4B6D-A87F-9E7056E0FEDB</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D63F7B61-3D52-4B6D-A87F-9E7056E0FEDB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626071964.98529005</real>
+			<key>timeStoppedRecording</key>
+			<real>626079888.505162</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>D63F7B61-3D52-4B6D-A87F-9E7056E0FEDB</string>
+		</dict>
+		<key>D6D2FC72-6CBA-4C00-995F-DF47FA4DB9F3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D6D2FC72-6CBA-4C00-995F-DF47FA4DB9F3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626071073.01335001</real>
+			<key>timeStoppedRecording</key>
+			<real>626071130.06456101</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>D6D2FC72-6CBA-4C00-995F-DF47FA4DB9F3</string>
+		</dict>
+		<key>D70A6AB7-42CC-4BCE-93FC-76BA167BA249</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D70A6AB7-42CC-4BCE-93FC-76BA167BA249.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626070183.598858</real>
+			<key>timeStoppedRecording</key>
+			<real>626070203.54171801</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>D70A6AB7-42CC-4BCE-93FC-76BA167BA249</string>
+		</dict>
+		<key>D93D7F60-9FCC-463F-8222-2A6D2FCFC8C7</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D93D7F60-9FCC-463F-8222-2A6D2FCFC8C7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626067557.66709101</real>
+			<key>timeStoppedRecording</key>
+			<real>626067628.26915896</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>D93D7F60-9FCC-463F-8222-2A6D2FCFC8C7</string>
+		</dict>
+		<key>D9FF467C-2570-45BD-8D26-ACD87B700711</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D9FF467C-2570-45BD-8D26-ACD87B700711.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626067481.846457</real>
+			<key>timeStoppedRecording</key>
+			<real>626067525.290048</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>D9FF467C-2570-45BD-8D26-ACD87B700711</string>
+		</dict>
+		<key>DDB6ABEE-5397-48B9-BC95-BC5D70F222BE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DDB6ABEE-5397-48B9-BC95-BC5D70F222BE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626043285.63657498</real>
+			<key>timeStoppedRecording</key>
+			<real>626043439.12072504</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>DDB6ABEE-5397-48B9-BC95-BC5D70F222BE</string>
+		</dict>
+		<key>E1D82AC3-9072-4B3C-A306-FB3BAB6FB1C9</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E1D82AC3-9072-4B3C-A306-FB3BAB6FB1C9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626055968.55846095</real>
+			<key>timeStoppedRecording</key>
+			<real>626055983.390674</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>E1D82AC3-9072-4B3C-A306-FB3BAB6FB1C9</string>
+		</dict>
+		<key>E540F2F2-53D4-48D6-851E-F42D56FAEE9A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E540F2F2-53D4-48D6-851E-F42D56FAEE9A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626055357.711218</real>
+			<key>timeStoppedRecording</key>
+			<real>626055398.67834401</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>E540F2F2-53D4-48D6-851E-F42D56FAEE9A</string>
+		</dict>
+		<key>E6689800-EF1C-4376-A3A8-B6602C0BD994</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E6689800-EF1C-4376-A3A8-B6602C0BD994.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626081646.33295</real>
+			<key>timeStoppedRecording</key>
+			<real>626081667.35750306</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>E6689800-EF1C-4376-A3A8-B6602C0BD994</string>
+		</dict>
+		<key>E9BE330D-3361-470E-8C2F-0BE401DE96F4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E9BE330D-3361-470E-8C2F-0BE401DE96F4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626067826.11807501</real>
+			<key>timeStoppedRecording</key>
+			<real>626067854.70345604</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>E9BE330D-3361-470E-8C2F-0BE401DE96F4</string>
+		</dict>
+		<key>ED64C7C2-C092-4B1F-91F9-08C80270F1BC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>ED64C7C2-C092-4B1F-91F9-08C80270F1BC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626068192.81591594</real>
+			<key>timeStoppedRecording</key>
+			<real>626068202.79856503</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>ED64C7C2-C092-4B1F-91F9-08C80270F1BC</string>
+		</dict>
+		<key>F51C7E92-AC35-41D8-98F1-789B29DDE074</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F51C7E92-AC35-41D8-98F1-789B29DDE074.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626070292.91497099</real>
+			<key>timeStoppedRecording</key>
+			<real>626070305.45174897</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>F51C7E92-AC35-41D8-98F1-789B29DDE074</string>
+		</dict>
+		<key>F9BB1B47-05BD-454E-AC13-DE0B52BD7356</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F9BB1B47-05BD-454E-AC13-DE0B52BD7356.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626082334.20911098</real>
+			<key>timeStoppedRecording</key>
+			<real>626083450.48568296</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>F9BB1B47-05BD-454E-AC13-DE0B52BD7356</string>
+		</dict>
+		<key>FBD3921F-8312-4B4B-B8FF-A134A0264BA2</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FBD3921F-8312-4B4B-B8FF-A134A0264BA2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626045181.96370804</real>
+			<key>timeStoppedRecording</key>
+			<real>626045186.17387998</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>FBD3921F-8312-4B4B-B8FF-A134A0264BA2</string>
+		</dict>
+		<key>FCF88927-032C-49C3-B63F-3F9286F90587</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FCF88927-032C-49C3-B63F-3F9286F90587.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626070362.44235098</real>
+			<key>timeStoppedRecording</key>
+			<real>626070372.344455</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>FCF88927-032C-49C3-B63F-3F9286F90587</string>
+		</dict>
+		<key>FD3283E2-FA47-4F03-B08F-25E53E51AC5D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FD3283E2-FA47-4F03-B08F-25E53E51AC5D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626044154.42111194</real>
+			<key>timeStoppedRecording</key>
+			<real>626044364.714782</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>FD3283E2-FA47-4F03-B08F-25E53E51AC5D</string>
+		</dict>
+		<key>FDDAC004-FFC8-43CF-AD13-6BE916153DDE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FDDAC004-FFC8-43CF-AD13-6BE916153DDE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626048976.81721902</real>
+			<key>timeStoppedRecording</key>
+			<real>626049003.40377796</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>FDDAC004-FFC8-43CF-AD13-6BE916153DDE</string>
+		</dict>
+		<key>FDDE038E-9064-4F02-9108-19744CF037DF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FDDE038E-9064-4F02-9108-19744CF037DF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626055782.62045395</real>
+			<key>timeStoppedRecording</key>
+			<real>626055824.23035395</real>
+			<key>title</key>
+			<string>Run hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>FDDE038E-9064-4F02-9108-19744CF037DF</string>
 		</dict>
 	</dict>
 </dict>

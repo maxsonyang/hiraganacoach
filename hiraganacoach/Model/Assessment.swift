@@ -2,7 +2,7 @@
 //  Assessment.swift
 //  hiraganacoach
 //
-//  Created by Maxson Yang on 10/29/20.
+//  Created by Maxson Yang on 11/2/20.
 //
 
 import Foundation
@@ -10,47 +10,49 @@ import Foundation
 class Assessment
 {
     
-    var character_performance : [String : [String : Int]]
+    var characters : [String] = []
+    var coredata_manager : CoreDataManager = CoreDataManager()
+    var accuracy_table : AccuracyTable = AccuracyTable()
+    var performance : Performance = Performance()
+    var assessment_metadata : AssessmentMetadata?
     
-    init()
+    func initialize(context : AssessmentContext)
     {
-        character_performance = [:]
+        self.characters = context.characters
+        accuracy_table.initialize_mapping(characters: self.characters)
+        performance.initialize_mapping(characters: self.characters)
+        assessment_metadata = coredata_manager.getAssessmentMetadata(id: context.id,
+                                                                     assessmentType: context.assessmentType)
+        print(assessment_metadata?.id)
+        print(assessment_metadata?.mastered)
     }
     
-    func initialize_mapping(characters : [String])
+    func updatePerformance(character : String, answer : String, correct : Bool)
     {
-        var temp_dict : [String : [String : Int]] = [:]
-        for character in characters
-        {
-            temp_dict[character] = [
-                "streak" : 0,
-                "attempts" : 0
-            ]
-        }
-        self.character_performance = temp_dict
+        accuracy_table.updateAccuracy(character: character, answer: answer, correct: correct)
+        performance.updateCharacterPerformance(character: character, correct: correct)
     }
     
-    func updateCharacterPerformance(character : String, correct : Bool)
+    func updateMastery()
     {
-        if correct {
-            character_performance[character]!["streak"]! += 1
-        } else {
-            character_performance[character]!["streak"] = 0
-        }
-        // Attempt always gets updated no matter what.
-        character_performance[character]!["attempts"]! += 1
+        assessment_metadata?.mastered = true
+        coredata_manager.saveContext()
     }
     
-    func masteryAchieved() -> Bool
+    func mastered() -> Bool
     {
-        for character in character_performance.keys
-        {
-            let performance_dict = character_performance[character]!
-            if performance_dict["streak"]! < 5 || performance_dict["attempts"]! < 5
-            {
-                return false
-            }
-        }
-        return true
+        return performance.masteryAchieved()
+    }
+    
+    func previouslyMastered() -> Bool
+    {
+        return assessment_metadata!.mastered
+    }
+    
+    func getNextCharacter(answer : String) -> String
+    {
+        let characters = removeLastCharacter(character: answer, characters: self.characters).shuffled()
+        let chosen_category = recommend(characters: characters, accuracyTable: accuracy_table)
+        return chosen_category
     }
 }

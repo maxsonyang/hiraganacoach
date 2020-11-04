@@ -11,7 +11,7 @@ struct AssessmentContext : Identifiable
 {
     /*
         Class used to define how a view should be generated to adhere
-        to the  flyweight design pattern.
+        to the flyweight design pattern.
      */
     let label : String
     let hiragana_label : String
@@ -28,4 +28,5 @@ struct AssessmentContext : Identifiable
         self.characters = fetchCharacters(categories: categories)
         self.assessmentType = assessmentType
     }
+    
 }

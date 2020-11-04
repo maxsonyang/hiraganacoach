@@ -72,10 +72,18 @@ class AccuracyTable {
     
     func getAccuracy(character: String) -> Double
     {
-        let correct = getCorrectAttempts(character: character)
         let attempts = getAttempts(character: character)
-        let answer = Double(correct) / Double(attempts)
-        return min(answer, 0.9)
+        if attempts == 0
+        {
+            return 0.0
+        }
+        let correct = getCorrectAttempts(character: character)
+        return Double(correct) / Double(attempts)
+    }
+    
+    func getRecommendationAccuracy(character: String) -> Double
+    {
+        return min(getAccuracy(character: character), 0.9)
     }
     
     func printRecordsNicely()
@@ -120,8 +128,8 @@ func filterByAccuracy(characters : [String], accuracyTable : AccuracyTable) -> [
     var accuracySets : [Double : [String]] = [:]
     for character in characters
     {
-        let accuracy = accuracyTable.getAccuracy(character: character).roundToOneDecimal()
-        let weight = 10.0 - accuracy
+        let accuracy = accuracyTable.getRecommendationAccuracy(character: character).roundToOneDecimal()
+        let weight = 15.0 - accuracy
         weights[accuracy] = weight
         if accuracySets[weight] == nil {
             accuracySets[weight] = [character]
@@ -242,3 +250,19 @@ extension Double {
         return number
     }
 }
+
+func getMasteredCategories() -> [String]
+{
+    var results : [String] = []
+    let manager = CoreDataManager()
+    let all_metadata = manager.fetchAllAssessmentMetadata()
+    for metadata in all_metadata
+    {
+        if metadata.mastered && metadata.assessmentType == "practice"
+        {
+            results.append(metadata.id!)
+        }
+    }
+    return results
+}
+
