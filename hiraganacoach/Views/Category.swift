@@ -31,7 +31,7 @@ struct Category : Identifiable, View {
                             .foregroundColor(.white)
                             .shadow(color: Color(hue: 1.0, saturation: 0.0, brightness: 0.701), radius: 1.0, x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/)
                                 .background(Color.white)
-                        Text(context.hiragana_label)
+                        Text(context.category_label)
                             .font(.system(size: 36.0))
                             .fontWeight(.bold)
                     }

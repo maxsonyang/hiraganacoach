@@ -7,25 +7,25 @@
 
 import Foundation
 
-struct AssessmentContext : Identifiable
+struct AssessmentContext : Identifiable, Codable
 {
     /*
         Class used to define how a view should be generated to adhere
         to the flyweight design pattern.
      */
     let label : String
-    let hiragana_label : String
+    let category_label : String
     let id : String
     let assessmentType : String
-    let characters : [String]
+    let categories : [String]
     
-    init(label: String, hiragana_label : String,
+    init(label: String, category_label : String,
          id : String, assessmentType : String, categories : [String])
     {
         self.label = label
-        self.hiragana_label = hiragana_label
+        self.category_label = category_label
         self.id = id
-        self.characters = fetchCharacters(categories: categories)
+        self.categories = categories
         self.assessmentType = assessmentType
     }
     

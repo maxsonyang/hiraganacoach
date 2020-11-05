@@ -28,6 +28,11 @@
 		68986ECE2540B240002C566A /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68986ECD2540B240002C566A /* QuizView.swift */; };
 		68986EE72540CCA9002C566A /* hiraganadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68986EE62540CCA9002C566A /* hiraganadata.swift */; };
 		68986EF02540FDBB002C566A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68986EEF2540FDBB002C566A /* Colors.swift */; };
+		68D1A29C2553A3D000C49D91 /* Hiragana.json in Resources */ = {isa = PBXBuildFile; fileRef = 68D1A29B2553A3D000C49D91 /* Hiragana.json */; };
+		68D1A2A42553ADAE00C49D91 /* JSONMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D1A2A32553ADAE00C49D91 /* JSONMethods.swift */; };
+		68D1A2AC2553C5D200C49D91 /* hiragana_characters.json in Resources */ = {isa = PBXBuildFile; fileRef = 68D1A2AB2553C5D200C49D91 /* hiragana_characters.json */; };
+		68D1A2B42553C8A100C49D91 /* hiragana_contexts.json in Resources */ = {isa = PBXBuildFile; fileRef = 68D1A2B32553C8A100C49D91 /* hiragana_contexts.json */; };
+		68D1A2B92553D6BA00C49D91 /* hiragana_categories.json in Resources */ = {isa = PBXBuildFile; fileRef = 68D1A2B82553D6BA00C49D91 /* hiragana_categories.json */; };
 		7AEAF97BF9B54BDBD2088836 /* Pods_hiraganacoach_hiraganacoachUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5BC112A33F24519A0214E1 /* Pods_hiraganacoach_hiraganacoachUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +83,11 @@
 		68986EE62540CCA9002C566A /* hiraganadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiraganadata.swift; sourceTree = "<group>"; };
 		68986EEB2540E8B8002C566A /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
 		68986EEF2540FDBB002C566A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		68D1A29B2553A3D000C49D91 /* Hiragana.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Hiragana.json; sourceTree = "<group>"; };
+		68D1A2A32553ADAE00C49D91 /* JSONMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMethods.swift; sourceTree = "<group>"; };
+		68D1A2AB2553C5D200C49D91 /* hiragana_characters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hiragana_characters.json; sourceTree = "<group>"; };
+		68D1A2B32553C8A100C49D91 /* hiragana_contexts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hiragana_contexts.json; sourceTree = "<group>"; };
+		68D1A2B82553D6BA00C49D91 /* hiragana_categories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hiragana_categories.json; sourceTree = "<group>"; };
 		6B5BC112A33F24519A0214E1 /* Pods_hiraganacoach_hiraganacoachUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hiraganacoach_hiraganacoachUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		919B1A1AC6C1B33427AF2C83 /* Pods-hiraganacoach-hiraganacoachUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hiraganacoach-hiraganacoachUITests.debug.xcconfig"; path = "Target Support Files/Pods-hiraganacoach-hiraganacoachUITests/Pods-hiraganacoach-hiraganacoachUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		94A5D60E1B4816A25B0ACDAF /* Pods_hiraganacoach.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hiraganacoach.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,6 +164,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		68805A012553A36400D95404 /* LanguageData */ = {
+			isa = PBXGroup;
+			children = (
+				68D1A2A32553ADAE00C49D91 /* JSONMethods.swift */,
+				68D1A29A2553A3A000C49D91 /* Japanese */,
+			);
+			path = LanguageData;
+			sourceTree = "<group>";
+		};
 		68986E8E2540B01B002C566A = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +198,7 @@
 		68986E992540B01B002C566A /* hiraganacoach */ = {
 			isa = PBXGroup;
 			children = (
+				68805A012553A36400D95404 /* LanguageData */,
 				6849DD8D254B6E0D00FC8C86 /* Model */,
 				6849DD8C254B6DEF00FC8C86 /* Views */,
 				68986E9A2540B01B002C566A /* hiraganacoachApp.swift */,
@@ -215,6 +235,17 @@
 				68986EBE2540B01E002C566A /* Info.plist */,
 			);
 			path = hiraganacoachUITests;
+			sourceTree = "<group>";
+		};
+		68D1A29A2553A3A000C49D91 /* Japanese */ = {
+			isa = PBXGroup;
+			children = (
+				68D1A29B2553A3D000C49D91 /* Hiragana.json */,
+				68D1A2B82553D6BA00C49D91 /* hiragana_categories.json */,
+				68D1A2B32553C8A100C49D91 /* hiragana_contexts.json */,
+				68D1A2AB2553C5D200C49D91 /* hiragana_characters.json */,
+			);
+			path = Japanese;
 			sourceTree = "<group>";
 		};
 		CCB4014003F685DA573AF26D /* Frameworks */ = {
@@ -337,7 +368,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				68986EA22540B01D002C566A /* Preview Assets.xcassets in Resources */,
+				68D1A2AC2553C5D200C49D91 /* hiragana_characters.json in Resources */,
 				68986E9F2540B01D002C566A /* Assets.xcassets in Resources */,
+				68D1A2B42553C8A100C49D91 /* hiragana_contexts.json in Resources */,
+				68D1A29C2553A3D000C49D91 /* Hiragana.json in Resources */,
+				68D1A2B92553D6BA00C49D91 /* hiragana_categories.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +513,7 @@
 				68986EE72540CCA9002C566A /* hiraganadata.swift in Sources */,
 				68986EA72540B01D002C566A /* hiraganacoach.xcdatamodeld in Sources */,
 				688059C92550D9AB00D95404 /* SettingsView.swift in Sources */,
+				68D1A2A42553ADAE00C49D91 /* JSONMethods.swift in Sources */,
 				688059D72550FEB700D95404 /* Assessment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
