@@ -14,6 +14,7 @@
 		68692C28254342D3003828F5 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68692C27254342D3003828F5 /* Category.swift */; };
 		68692C2D25438985003828F5 /* QuestionRecommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68692C2C25438984003828F5 /* QuestionRecommendation.swift */; };
 		687C9213254BB8B3005B0755 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687C9212254BB8B3005B0755 /* Context.swift */; };
+		687FF426255605C800A9F131 /* LanguageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687FF425255605C800A9F131 /* LanguageSelectionView.swift */; };
 		688059C92550D9AB00D95404 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688059C82550D9AB00D95404 /* SettingsView.swift */; };
 		688059D72550FEB700D95404 /* Assessment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688059D62550FEB700D95404 /* Assessment.swift */; };
 		688059F12551122400D95404 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688059F02551122400D95404 /* CoreData.framework */; };
@@ -21,18 +22,20 @@
 		68986E9D2540B01B002C566A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68986E9C2540B01B002C566A /* ContentView.swift */; };
 		68986E9F2540B01D002C566A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68986E9E2540B01D002C566A /* Assets.xcassets */; };
 		68986EA22540B01D002C566A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68986EA12540B01D002C566A /* Preview Assets.xcassets */; };
-		68986EA42540B01D002C566A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68986EA32540B01D002C566A /* Persistence.swift */; };
+		68986EA42540B01D002C566A /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68986EA32540B01D002C566A /* CoreDataManager.swift */; };
 		68986EA72540B01D002C566A /* hiraganacoach.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68986EA52540B01D002C566A /* hiraganacoach.xcdatamodeld */; };
 		68986EB22540B01E002C566A /* hiraganacoachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68986EB12540B01E002C566A /* hiraganacoachTests.swift */; };
 		68986EBD2540B01E002C566A /* hiraganacoachUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68986EBC2540B01E002C566A /* hiraganacoachUITests.swift */; };
 		68986ECE2540B240002C566A /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68986ECD2540B240002C566A /* QuizView.swift */; };
 		68986EE72540CCA9002C566A /* hiraganadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68986EE62540CCA9002C566A /* hiraganadata.swift */; };
 		68986EF02540FDBB002C566A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68986EEF2540FDBB002C566A /* Colors.swift */; };
-		68D1A29C2553A3D000C49D91 /* Hiragana.json in Resources */ = {isa = PBXBuildFile; fileRef = 68D1A29B2553A3D000C49D91 /* Hiragana.json */; };
 		68D1A2A42553ADAE00C49D91 /* JSONMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D1A2A32553ADAE00C49D91 /* JSONMethods.swift */; };
 		68D1A2AC2553C5D200C49D91 /* hiragana_characters.json in Resources */ = {isa = PBXBuildFile; fileRef = 68D1A2AB2553C5D200C49D91 /* hiragana_characters.json */; };
 		68D1A2B42553C8A100C49D91 /* hiragana_contexts.json in Resources */ = {isa = PBXBuildFile; fileRef = 68D1A2B32553C8A100C49D91 /* hiragana_contexts.json */; };
 		68D1A2B92553D6BA00C49D91 /* hiragana_categories.json in Resources */ = {isa = PBXBuildFile; fileRef = 68D1A2B82553D6BA00C49D91 /* hiragana_categories.json */; };
+		68D1A2CE2553DA6B00C49D91 /* korean_characters.json in Resources */ = {isa = PBXBuildFile; fileRef = 68D1A2CD2553DA6B00C49D91 /* korean_characters.json */; };
+		68D1A2D32553E2D900C49D91 /* korean_categories.json in Resources */ = {isa = PBXBuildFile; fileRef = 68D1A2D22553E2D900C49D91 /* korean_categories.json */; };
+		68D1A2DB2553E2E100C49D91 /* korean_contexts.json in Resources */ = {isa = PBXBuildFile; fileRef = 68D1A2DA2553E2E100C49D91 /* korean_contexts.json */; };
 		7AEAF97BF9B54BDBD2088836 /* Pods_hiraganacoach_hiraganacoachUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5BC112A33F24519A0214E1 /* Pods_hiraganacoach_hiraganacoachUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +65,7 @@
 		68692C27254342D3003828F5 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		68692C2C25438984003828F5 /* QuestionRecommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionRecommendation.swift; sourceTree = "<group>"; };
 		687C9212254BB8B3005B0755 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		687FF425255605C800A9F131 /* LanguageSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionView.swift; sourceTree = "<group>"; };
 		688059C82550D9AB00D95404 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		688059D62550FEB700D95404 /* Assessment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessment.swift; sourceTree = "<group>"; };
 		688059F02551122400D95404 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -70,7 +74,7 @@
 		68986E9C2540B01B002C566A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68986E9E2540B01D002C566A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68986EA12540B01D002C566A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		68986EA32540B01D002C566A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		68986EA32540B01D002C566A /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		68986EA62540B01D002C566A /* hiraganacoach.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hiraganacoach.xcdatamodel; sourceTree = "<group>"; };
 		68986EA82540B01D002C566A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68986EAD2540B01E002C566A /* hiraganacoachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hiraganacoachTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,11 +87,13 @@
 		68986EE62540CCA9002C566A /* hiraganadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiraganadata.swift; sourceTree = "<group>"; };
 		68986EEB2540E8B8002C566A /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
 		68986EEF2540FDBB002C566A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		68D1A29B2553A3D000C49D91 /* Hiragana.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Hiragana.json; sourceTree = "<group>"; };
 		68D1A2A32553ADAE00C49D91 /* JSONMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMethods.swift; sourceTree = "<group>"; };
 		68D1A2AB2553C5D200C49D91 /* hiragana_characters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hiragana_characters.json; sourceTree = "<group>"; };
 		68D1A2B32553C8A100C49D91 /* hiragana_contexts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hiragana_contexts.json; sourceTree = "<group>"; };
 		68D1A2B82553D6BA00C49D91 /* hiragana_categories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hiragana_categories.json; sourceTree = "<group>"; };
+		68D1A2CD2553DA6B00C49D91 /* korean_characters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = korean_characters.json; sourceTree = "<group>"; };
+		68D1A2D22553E2D900C49D91 /* korean_categories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = korean_categories.json; sourceTree = "<group>"; };
+		68D1A2DA2553E2E100C49D91 /* korean_contexts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = korean_contexts.json; sourceTree = "<group>"; };
 		6B5BC112A33F24519A0214E1 /* Pods_hiraganacoach_hiraganacoachUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hiraganacoach_hiraganacoachUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		919B1A1AC6C1B33427AF2C83 /* Pods-hiraganacoach-hiraganacoachUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hiraganacoach-hiraganacoachUITests.debug.xcconfig"; path = "Target Support Files/Pods-hiraganacoach-hiraganacoachUITests/Pods-hiraganacoach-hiraganacoachUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		94A5D60E1B4816A25B0ACDAF /* Pods_hiraganacoach.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hiraganacoach.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +152,7 @@
 				68986EEF2540FDBB002C566A /* Colors.swift */,
 				68986ECD2540B240002C566A /* QuizView.swift */,
 				68692C1F25434009003828F5 /* AssessmentsView.swift */,
+				687FF425255605C800A9F131 /* LanguageSelectionView.swift */,
 				68986E9C2540B01B002C566A /* ContentView.swift */,
 			);
 			path = Views;
@@ -154,7 +161,7 @@
 		6849DD8D254B6E0D00FC8C86 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				68986EA32540B01D002C566A /* Persistence.swift */,
+				68986EA32540B01D002C566A /* CoreDataManager.swift */,
 				68692C2C25438984003828F5 /* QuestionRecommendation.swift */,
 				6849DD97254B71B200FC8C86 /* Performance.swift */,
 				688059D62550FEB700D95404 /* Assessment.swift */,
@@ -167,6 +174,7 @@
 		68805A012553A36400D95404 /* LanguageData */ = {
 			isa = PBXGroup;
 			children = (
+				68D1A2C92553DA4200C49D91 /* Korean */,
 				68D1A2A32553ADAE00C49D91 /* JSONMethods.swift */,
 				68D1A29A2553A3A000C49D91 /* Japanese */,
 			);
@@ -240,12 +248,21 @@
 		68D1A29A2553A3A000C49D91 /* Japanese */ = {
 			isa = PBXGroup;
 			children = (
-				68D1A29B2553A3D000C49D91 /* Hiragana.json */,
 				68D1A2B82553D6BA00C49D91 /* hiragana_categories.json */,
 				68D1A2B32553C8A100C49D91 /* hiragana_contexts.json */,
 				68D1A2AB2553C5D200C49D91 /* hiragana_characters.json */,
 			);
 			path = Japanese;
+			sourceTree = "<group>";
+		};
+		68D1A2C92553DA4200C49D91 /* Korean */ = {
+			isa = PBXGroup;
+			children = (
+				68D1A2CD2553DA6B00C49D91 /* korean_characters.json */,
+				68D1A2D22553E2D900C49D91 /* korean_categories.json */,
+				68D1A2DA2553E2E100C49D91 /* korean_contexts.json */,
+			);
+			path = Korean;
 			sourceTree = "<group>";
 		};
 		CCB4014003F685DA573AF26D /* Frameworks */ = {
@@ -368,10 +385,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				68986EA22540B01D002C566A /* Preview Assets.xcassets in Resources */,
+				68D1A2D32553E2D900C49D91 /* korean_categories.json in Resources */,
 				68D1A2AC2553C5D200C49D91 /* hiragana_characters.json in Resources */,
+				68D1A2DB2553E2E100C49D91 /* korean_contexts.json in Resources */,
 				68986E9F2540B01D002C566A /* Assets.xcassets in Resources */,
 				68D1A2B42553C8A100C49D91 /* hiragana_contexts.json in Resources */,
-				68D1A29C2553A3D000C49D91 /* Hiragana.json in Resources */,
+				68D1A2CE2553DA6B00C49D91 /* korean_characters.json in Resources */,
 				68D1A2B92553D6BA00C49D91 /* hiragana_categories.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,7 +519,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68986EA42540B01D002C566A /* Persistence.swift in Sources */,
+				68986EA42540B01D002C566A /* CoreDataManager.swift in Sources */,
 				68986E9D2540B01B002C566A /* ContentView.swift in Sources */,
 				68986ECE2540B240002C566A /* QuizView.swift in Sources */,
 				68692C2D25438985003828F5 /* QuestionRecommendation.swift in Sources */,
@@ -511,6 +530,7 @@
 				68986E9B2540B01B002C566A /* hiraganacoachApp.swift in Sources */,
 				687C9213254BB8B3005B0755 /* Context.swift in Sources */,
 				68986EE72540CCA9002C566A /* hiraganadata.swift in Sources */,
+				687FF426255605C800A9F131 /* LanguageSelectionView.swift in Sources */,
 				68986EA72540B01D002C566A /* hiraganacoach.xcdatamodeld in Sources */,
 				688059C92550D9AB00D95404 /* SettingsView.swift in Sources */,
 				68D1A2A42553ADAE00C49D91 /* JSONMethods.swift in Sources */,

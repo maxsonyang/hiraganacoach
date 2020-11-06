@@ -16,13 +16,13 @@ class Assessment
     var performance : Performance = Performance()
     var assessment_metadata : AssessmentMetadata?
     
-    func initialize(context : AssessmentContext)
+    func initialize(assessmentContext : AssessmentContext, languageContext : LanguageContext)
     {
-        self.characters = self.fetchCharacters(categories: context.categories, assessmentType: context.assessmentType)
-        accuracy_table.initialize_mapping(characters: self.characters)
+        self.characters = self.fetchCharacters(categories: assessmentContext.categories, assessmentType: assessmentContext.assessmentType, language: languageContext.id)
+        accuracy_table.initialize(characters: self.characters, languageContext: languageContext)
         performance.initialize_mapping(characters: self.characters)
-        assessment_metadata = coredata_manager.getAssessmentMetadata(id: context.id,
-                                                                     assessmentType: context.assessmentType)
+        assessment_metadata = coredata_manager.getAssessmentMetadata(id: assessmentContext.id,
+                                                                     assessmentType: assessmentContext.assessmentType, language: languageContext.id)
     }
     
     func updatePerformance(character : String, answer : String, correct : Bool)
@@ -54,12 +54,12 @@ class Assessment
         return chosen_category
     }
     
-    func fetchCharacters(categories : [String], assessmentType : String) -> [String]
+    func fetchCharacters(categories: [String], assessmentType: String, language: String) -> [String]
     {
         if assessmentType == "dojo"
         {
             var mastered_categories : [String] = []
-            let assessmentMetadata = coredata_manager.fetchAllAssessmentMetadata()
+            let assessmentMetadata = coredata_manager.fetchAllAssessmentMetadataForLanguage(language: language)
             for metadata in assessmentMetadata
             {
                 if metadata.mastered

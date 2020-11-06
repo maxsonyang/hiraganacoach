@@ -11,36 +11,40 @@ import SwiftUI
 struct Category : Identifiable, View {
     
     
-    var context : AssessmentContext
+    var assessmentContext : AssessmentContext
+    var languageContext : LanguageContext
     var id : String
     
-    init(context : AssessmentContext) {
-        self.context = context
-        self.id = context.id
+    init(assessmentContext : AssessmentContext, languageContext : LanguageContext) {
+        self.assessmentContext = assessmentContext
+        self.languageContext = languageContext
+        self.id = assessmentContext.id
     }
     
     var body : some View {
-        
         NavigationLink(
-            destination: QuizView(context: self.context),
+            destination: QuizView(assessmentContext: assessmentContext, languageContext: languageContext),
             label: {
                 HStack {
                     ZStack {
                         RoundedRectangle(cornerRadius: 10.0, style: .continuous)
                             .frame(width: 50, height: 50, alignment: .center)
-                            .foregroundColor(.white)
-                            .shadow(color: Color(hue: 1.0, saturation: 0.0, brightness: 0.701), radius: 1.0, x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/)
+                            .foregroundColor(.deepBlue)
+
                                 .background(Color.white)
-                        Text(context.category_label)
-                            .font(.system(size: 36.0))
+                        Text(assessmentContext.category_label)
+                            .font(.system(size: assessmentContext.category_label.count > 1 ? 20.0 : 30.0))
                             .fontWeight(.bold)
+                            .foregroundColor(.white)
                     }
+                    .cornerRadius(10.0)
                     Spacer().frame(width: 20)
-                    Text(context.label)
-                        .font(.system(size: 32.0))
+                    Text(assessmentContext.label)
+                        .font(.system(size: 28.0))
+                        .foregroundColor(Color.deepBlue)
                     Spacer()
                 }
-            })
+            }).accentColor(.white)
     }
     
 }

@@ -30,3 +30,17 @@ struct AssessmentContext : Identifiable, Codable
     }
     
 }
+
+class LanguageContext : Identifiable, Codable
+{
+    let id : String
+    let label : String
+    let family : String
+    
+    init(id : String, label : String, family : String)
+    {
+        self.id = id
+        self.label = label
+        self.family = family
+    }
+}

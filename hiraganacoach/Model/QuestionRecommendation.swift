@@ -12,10 +12,12 @@ class AccuracyTable {
     
     var coredata_manager : CoreDataManager = CoreDataManager()
     var record_mapping : [String : CharacterRecord] = [:]
+    var languageContext : LanguageContext?
     
-    func initialize_mapping(characters : [String])
+    func initialize(characters : [String], languageContext: LanguageContext)
     {
-        record_mapping = coredata_manager.getCharacterRecordMappings(characters: characters)
+        self.languageContext = languageContext
+        record_mapping = coredata_manager.getCharacterRecordMappings(characters: characters, language: languageContext.id)
     }
     
     func updateAccuracy(character : String, answer : String, correct : Bool)

@@ -10,10 +10,13 @@ import SwiftUI
 struct SettingsView: View {
     var body: some View {
         Form {
-            Section {
+            Section(header: Text("Personal Performance")) {
                 Button("Delete all assessments", action: {
                     CoreDataManager().deleteAllAssessmentMetadata()
-                })
+                }).foregroundColor(.deepBlue)
+                Button("Delete all performance", action: {
+                    CoreDataManager().deleteAllCharacterRecords()
+                }).foregroundColor(.deepBlue)
             }
         }
         .navigationTitle("Settings")

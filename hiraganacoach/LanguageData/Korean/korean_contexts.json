@@ -1,0 +1,81 @@
+[
+    {
+        "label" : "Dojo",
+        "category_label" : "ㄱ",
+        "id" : "dojo",
+        "assessmentType" : "dojo",
+        "categories" : []
+    },
+    {
+        "label" : "Consonants 1",
+        "category_label" : "ㄱ",
+        "id" : "consonants 1",
+        "assessmentType" : "practice",
+        "categories" : [
+            "consonants 1"
+        ]
+    },
+    {
+        "label" : "Consonants 2",
+        "category_label" : "ㅂ",
+        "id" : "consonants 2",
+        "assessmentType" : "practice",
+        "categories" : [
+            "consonants 2"
+        ]
+    },
+    {
+        "label" : "Consonants 3",
+        "category_label" : "ㅋ",
+        "id" : "consonants 3",
+        "assessmentType" : "practice",
+        "categories" : [
+            "consonants 3"
+        ]
+    },
+    {
+        "label" : "Consonants 4",
+        "category_label" : "ㄲ",
+        "id" : "consonants 4",
+        "assessmentType" : "practice",
+        "categories" : [
+            "consonants 3"
+        ]
+    },
+    {
+        "label" : "Vowels 1",
+        "category_label" : "ㅏ",
+        "id" : "vowels 1",
+        "assessmentType" : "practice",
+        "categories" : [
+            "vowels 1"
+        ]
+    },
+    {
+        "label" : "Vowels 2",
+        "category_label" : "ㅗ",
+        "id" : "vowels 2",
+        "assessmentType" : "practice",
+        "categories" : [
+            "vowels 2"
+        ]
+    },
+    {
+        "label" : "Vowels 3",
+        "category_label" : "ㅣ",
+        "id" : "vowels 3",
+        "assessmentType" : "practice",
+        "categories" : [
+            "vowels 3"
+        ]
+    },
+    {
+        "label" : "Vowels 4",
+        "category_label" : "ㅘ",
+        "id" : "vowels 4",
+        "assessmentType" : "practice",
+        "categories" : [
+            "vowels 4"
+        ]
+    }
+]

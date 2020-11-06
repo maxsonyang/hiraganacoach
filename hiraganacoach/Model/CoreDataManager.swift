@@ -40,7 +40,7 @@ class CoreDataManager {
     
     let viewContext = PersistenceController().container.viewContext
     
-    func createNewAssessmentMetadata(id : String, assessmentType : String)
+    func createNewAssessmentMetadata(id : String, assessmentType : String, language : String)
     {
         let assessmentMetadataEntity = NSEntityDescription.entity(forEntityName: "AssessmentMetadata", in: viewContext)!
         let assessmentMetadata = AssessmentMetadata(entity: assessmentMetadataEntity, insertInto: viewContext)
@@ -49,6 +49,7 @@ class CoreDataManager {
         assessmentMetadata.setValue(false, forKey: "mastered")
         assessmentMetadata.setValue(0, forKey: "highestStreak")
         assessmentMetadata.setValue(assessmentType, forKey: "assessmentType")
+        assessmentMetadata.setValue(language, forKey: "language")
         saveContext()
     }
     
@@ -67,6 +68,48 @@ class CoreDataManager {
             print(error)
         }
         
+        return []
+    }
+    
+    func fetchAllCharacterRecords() -> [CharacterRecord]
+    {
+        let fetchRequest = NSFetchRequest<CharacterRecord>(entityName: "CharacterRecord")
+        do {
+            let result = try viewContext.fetch(fetchRequest)
+            return result
+        } catch let error as NSError
+        {
+            print(error.debugDescription)
+        }
+        return []
+    }
+    
+    func deleteAllCharacterRecords()
+    {
+        let records = fetchAllCharacterRecords()
+        for record in records
+        {
+            deleteCharacterRecord(characterRecord: record)
+        }
+    }
+    
+    func deleteCharacterRecord(characterRecord: CharacterRecord)
+    {
+        viewContext.delete(characterRecord)
+        saveContext()
+    }
+    
+    func fetchAllAssessmentMetadataForLanguage(language: String) -> [AssessmentMetadata]
+    {
+        let fetchRequest = NSFetchRequest<AssessmentMetadata>(entityName: "AssessmentMetadata")
+        let predicate = getLanguageEqualityPredicate(language: language)
+        fetchRequest.predicate = predicate
+        do {
+            let results = try viewContext.fetch(fetchRequest)
+            return results
+        } catch let error as NSError {
+            print(error.debugDescription)
+        }
         return []
     }
     
@@ -91,25 +134,25 @@ class CoreDataManager {
         }
     }
     
-    func deleteAssessmentMetadata(metadata : AssessmentMetadata)
+    func deleteAssessmentMetadata(metadata: AssessmentMetadata)
     {
         viewContext.delete(metadata)
         saveContext()
     }
     
-    func getAssessmentMetadata(id : String, assessmentType : String) -> AssessmentMetadata
+    func getAssessmentMetadata(id: String, assessmentType: String, language: String) -> AssessmentMetadata
     {
         var result = fetchAssessmentMetadata(id : id, assessmentType: assessmentType)
         if result.isEmpty
         {
-            createNewAssessmentMetadata(id: id, assessmentType: assessmentType)
+            createNewAssessmentMetadata(id: id, assessmentType: assessmentType, language: language)
             result = fetchAssessmentMetadata(id: id, assessmentType: assessmentType)
             return result[0]
         }
         return result[0]
     }
     
-    func createNewCharacterRecord(character : String)
+    func createNewCharacterRecord(character : String, language : String)
     {
         let characterRecordEntity = NSEntityDescription.entity(forEntityName: "CharacterRecord", in: viewContext)!
         let characterRecord = CharacterRecord(entity: characterRecordEntity, insertInto: viewContext)
@@ -119,12 +162,13 @@ class CoreDataManager {
         characterRecord.setValue(0, forKey: "correct")
         characterRecord.setValue(0, forKey: "attempts")
         characterRecord.setValue(confusionIndex, forKey: "confusion_index")
+        characterRecord.setValue(language, forKey: "language")
         saveContext()
     }
     
-    func getCharacterRecordMappings(characters : [String]) -> [String : CharacterRecord]
+    func getCharacterRecordMappings(characters : [String], language: String) -> [String : CharacterRecord]
     {
-        let characterRecords = fetchCharacterRecords(characters: characters)
+        let characterRecords = fetchCharacterRecords(characters: characters, language: language)
         var mapping : [String : CharacterRecord] = [:]
         
         for record in characterRecords
@@ -144,7 +188,7 @@ class CoreDataManager {
         return result.count > 0
     }
     
-    func fetchCharacterRecords(characters : [String]) -> [CharacterRecord]
+    func fetchCharacterRecords(characters : [String], language: String) -> [CharacterRecord]
     {
         /*
             Returns a list of specified characters.
@@ -155,11 +199,11 @@ class CoreDataManager {
         {
             if !checkCharacterExists(character: character)
             {
-                createNewCharacterRecord(character: character)
+                createNewCharacterRecord(character: character, language: language)
             }
         }
         
-        let predicate = getCompoundPredicatesForCharacters(characters: characters)
+        let predicate = getCompoundPredicatesForCharacters(characters: characters, language: language)
         let fetchRequest = NSFetchRequest<CharacterRecord>(entityName: "CharacterRecord")
         fetchRequest.predicate = predicate
         
@@ -182,7 +226,12 @@ class CoreDataManager {
         return NSPredicate(format: "character == %@", character)
     }
     
-    func getCompoundPredicatesForCharacters(characters : [String]) -> NSCompoundPredicate
+    func getLanguageEqualityPredicate(language : String) -> NSPredicate
+    {
+        return NSPredicate(format: "language == %@", language)
+    }
+    
+    func getCompoundPredicatesForCharacters(characters : [String], language: String) -> NSCompoundPredicate
     {
         var predicates : [NSPredicate] = []
         
@@ -192,7 +241,9 @@ class CoreDataManager {
             predicates.append(predicate)
         }
         
-        return NSCompoundPredicate(orPredicateWithSubpredicates: predicates)
+        let characterEqualityPredicates = NSCompoundPredicate(orPredicateWithSubpredicates: predicates)
+        let languageEqualityPredicate = getLanguageEqualityPredicate(language: language)
+        return NSCompoundPredicate(andPredicateWithSubpredicates: [characterEqualityPredicates, languageEqualityPredicate])
         
     }
     

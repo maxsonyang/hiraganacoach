@@ -1,0 +1,10 @@
+{
+    "consonants 1" : ["g/k", "n", "d/t", "r/l", "m"],
+    "consonants 2" : ["b/p", "s/t" , "ng", "j/t", "ch/t"],
+    "consonants 3" : ["k", "t", "p", "h/t"],
+    "consonants 4" : ["kk/k", "tt", "pp", "ss/t", "jj"],
+    "vowels 1" : ["a", "ya", "eo", "yeo"],
+    "vowels 2" : ["o", "yo", "u", "yu", "eu"],
+    "vowels 3" : ["i", "ae", "yae", "e", "ye"],
+    "vowels 4" : ["wa", "wae", "oe", "wo", "we", "wi", "ui"]
+}
