@@ -8,7 +8,7 @@
     "m consonants" : ["ma", "mi", "mu", "me", "mo"],
     "y consonants" : ["ya", "yu", "yo"],
     "r consonants" : ["ra", "ri", "ru", "re", "ro"],
-    "w consonants" : ["wa", "wo", "n"],
+    "w consonants" : ["wa", "wo", "n", "v"],
     "dakuten k" : ["ga", "gi", "gu", "ge", "go"],
     "dakuten s" : ["za", "ji", "zu", "ze", "zo"],
     "dakuten t" : ["da", "dzi", "dzu", "de", "do"],
@@ -25,5 +25,11 @@
     "b combination" : ["bya", "byu", "byo"],
     "p combination" : ["pya", "pyu", "pyo"],
     "m combination" : ["mya", "myu", "myo"],
-    "r combination" : ["rya", "ryu", "ryo"]
+    "r combination" : ["rya", "ryu", "ryo"],
+    "v combination" : ["va", "vi", "vo"],
+    "u combination" : ["ui", "ue", "uo"],
+    "f combination" : ["fa", "fi", "fu", "fe", "fo"],
+    "e combination" : ["she", "je", "che"],
+    "t+d combination" : ["tu", "ty", "du", "dy"],
+    "ts combination" : ["tsa", "tsi", "tse", "tso"]
 }

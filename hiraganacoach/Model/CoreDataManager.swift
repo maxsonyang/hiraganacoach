@@ -53,12 +53,13 @@ class CoreDataManager {
         saveContext()
     }
     
-    func fetchAssessmentMetadata(id : String, assessmentType : String) -> [AssessmentMetadata]
+    func fetchAssessmentMetadata(id : String, assessmentType : String, language: String) -> [AssessmentMetadata]
     {
         let fetchRequest = NSFetchRequest<AssessmentMetadata>(entityName: "AssessmentMetadata")
         let id_predicate = NSPredicate(format: "id == %@", id)
+        let languagePredicate = getLanguageEqualityPredicate(language: language)
         let assessmentType_predicate = NSPredicate(format: "assessmentType == %@", assessmentType)
-        let predicate = NSCompoundPredicate(andPredicateWithSubpredicates: [id_predicate, assessmentType_predicate])
+        let predicate = NSCompoundPredicate(andPredicateWithSubpredicates: [id_predicate, assessmentType_predicate, languagePredicate])
         fetchRequest.predicate = predicate
         
         do {
@@ -69,6 +70,60 @@ class CoreDataManager {
         }
         
         return []
+    }
+    
+    func fetchMasteryArray(language: String) -> [String : Bool]
+    {
+        let fetchRequest = NSFetchRequest<AssessmentMetadata>(entityName: "AssessmentMetadata")
+        let predicate = getLanguageEqualityPredicate(language: language)
+        fetchRequest.propertiesToFetch = ["mastered", "id"]
+        fetchRequest.predicate = predicate
+        do {
+            let results = try viewContext.fetch(fetchRequest)
+            var mapping : [String : Bool] = [:]
+            for context in results
+            {
+                mapping[context.id!] = context.mastered
+            }
+            return mapping
+        } catch let error as NSError {
+            print(error.debugDescription)
+        }
+        return [:]
+    }
+    
+    func fetchLanguageScore(language : String) -> Int
+    {
+        let fetchRequest = NSFetchRequest<CharacterRecord>(entityName: "CharacterRecord")
+        let languagePredicate = getLanguageEqualityPredicate(language: language)
+        fetchRequest.propertiesToFetch = ["correct"]
+        fetchRequest.predicate = languagePredicate
+        do {
+            let result = try viewContext.fetch(fetchRequest)
+            return result.map {
+                Int($0.correct)
+            }.reduce(0, +)
+        } catch let error as NSError {
+            print(error.debugDescription)
+        }
+        return -1
+    }
+    
+    func fetchHighestStreak(language : String) -> Int
+    {
+        let fetchRequest = NSFetchRequest<AssessmentMetadata>(entityName: "AssessmentMetadata")
+        let languageEqualityPredicate = getLanguageEqualityPredicate(language: language)
+        fetchRequest.propertiesToFetch = ["highestStreak"]
+        fetchRequest.predicate = languageEqualityPredicate
+        do {
+            let results = try viewContext.fetch(fetchRequest)
+            return results.map {
+                Int($0.highestStreak)
+            }.reduce(0, max)
+        } catch let error as NSError {
+            print(error.debugDescription)
+        }
+        return -1
     }
     
     func fetchAllCharacterRecords() -> [CharacterRecord]
@@ -142,11 +197,11 @@ class CoreDataManager {
     
     func getAssessmentMetadata(id: String, assessmentType: String, language: String) -> AssessmentMetadata
     {
-        var result = fetchAssessmentMetadata(id : id, assessmentType: assessmentType)
+        var result = fetchAssessmentMetadata(id : id, assessmentType: assessmentType, language: language)
         if result.isEmpty
         {
             createNewAssessmentMetadata(id: id, assessmentType: assessmentType, language: language)
-            result = fetchAssessmentMetadata(id: id, assessmentType: assessmentType)
+            result = fetchAssessmentMetadata(id: id, assessmentType: assessmentType, language: language)
             return result[0]
         }
         return result[0]
@@ -179,10 +234,12 @@ class CoreDataManager {
         return mapping
     }
     
-    func checkCharacterExists(character : String) -> Bool
+    func checkCharacterExists(character : String, language: String) -> Bool
     {
         let fetchRequest = NSFetchRequest<CharacterRecord>(entityName: "CharacterRecord")
-        let predicate = NSPredicate(format: "character == %@", character)
+        let characterPredicate = NSPredicate(format: "character == %@", character)
+        let languagePredicate = getLanguageEqualityPredicate(language: language)
+        let predicate = NSCompoundPredicate(andPredicateWithSubpredicates: [characterPredicate, languagePredicate])
         fetchRequest.predicate = predicate
         let result = performFetchRequest(fetchRequest: fetchRequest)
         return result.count > 0
@@ -197,7 +254,7 @@ class CoreDataManager {
          */
         for character in characters
         {
-            if !checkCharacterExists(character: character)
+            if !checkCharacterExists(character: character, language: language)
             {
                 createNewCharacterRecord(character: character, language: language)
             }
@@ -253,6 +310,74 @@ class CoreDataManager {
             try viewContext.save()
         } catch let error as NSError {
             print("Couldn't add a new character with error \(error.userInfo) :c")
+        }
+    }
+}
+
+class RevisedCoreDataManager
+{
+    public static let modelName = "hiraganacoach"
+    
+    public static let model : NSManagedObjectModel =
+    {
+        let modelURL = Bundle.main.url(forResource: modelName, withExtension: "momd")!
+        return NSManagedObjectModel(contentsOf: modelURL)!
+    }()
+    
+    public lazy var container : NSPersistentContainer =
+    {
+        let container = NSPersistentContainer(name: RevisedCoreDataManager.modelName, managedObjectModel: RevisedCoreDataManager.model)
+        container.loadPersistentStores { _, error in
+            if let error = error as NSError? {
+                fatalError("App crashed with error \(error), \(error.userInfo)")
+            }
+        }
+        return container
+    }()
+    
+    public lazy var mainContext: NSManagedObjectContext =
+    {
+        return self.container.viewContext
+    }()
+    
+    public func getNewBackgroundContext() -> NSManagedObjectContext
+    {
+        let backgroundContext = container.newBackgroundContext()
+        return backgroundContext
+    }
+    
+    public func saveContext(_ context: NSManagedObjectContext)
+    {
+        if context != mainContext
+        {
+            saveBackgroundContext(context: context)
+        } else {
+            saveMainContext()
+        }
+    }
+    
+    public func saveBackgroundContext(context : NSManagedObjectContext)
+    {
+        context.perform {
+            do {
+                try context.save()
+            } catch let error as NSError {
+                fatalError("Unable to save context: \(error.debugDescription)")
+            }
+        }
+        
+        self.saveMainContext()
+    }
+    
+    public func saveMainContext()
+    {
+        mainContext.perform
+        {
+            do {
+                try self.mainContext.save()
+            } catch let error as NSError {
+                fatalError("Unable to save context: \(error.debugDescription)")
+            }
         }
     }
 }

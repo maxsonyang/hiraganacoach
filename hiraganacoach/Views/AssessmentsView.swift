@@ -10,6 +10,10 @@ import SwiftUI
 struct AssessmentsView: View {
     
     @State var displayedContexts : [AssessmentContext] = []
+    @State var masteryMapping : [String : Bool] = [:]
+    @State var categoryScore : Int = 0
+    @State var masteredTopics : Int = 0
+    @State var highestStreak : Int = 0
     var languageContext : LanguageContext
     
     init(languageContext : LanguageContext) {
@@ -22,16 +26,50 @@ struct AssessmentsView: View {
     
     var body: some View {
             Form {
-                Section {
+                Section(header: Text("Performance").foregroundColor(.white)) {
+                    HStack {
+                        VStack {
+                            Text("\(categoryScore)").font(.system(size: 18.0)).foregroundColor(.cyanProcess)
+                            Text("correct answers").foregroundColor(.deepBlue).font(.system(size: 12.0))
+                        }
+                        Spacer()
+                        VStack {
+                            Text("\(masteredTopics)").font(.system(size: 18.0)).foregroundColor(.cyanProcess)
+                            Text("topics mastered").foregroundColor(.deepBlue).font(.system(size: 12.0))
+                        }
+                        Spacer()
+                        VStack {
+                            Text("\(highestStreak)").font(.system(size: 18.0)).foregroundColor(.cyanProcess)
+                            Text("longest streak").foregroundColor(.deepBlue).font(.system(size: 12.0))
+                        }
+                        
+                    }
+                }
+                Section(header: Text("Practice").foregroundColor(.white)) {
                     List(displayedContexts) { context in
-                        Category(assessmentContext: context, languageContext: languageContext)
-                            .frame(height: 60)
+                        if context.id == "dojo" {
+                            Category(assessmentContext: context, languageContext: languageContext, mastered: true)
+                                .frame(height: 60)
+                        } else {
+                            if masteryMapping[context.id] == nil {
+                                Category(assessmentContext: context, languageContext: languageContext, mastered: false)
+                                    .frame(height: 60)
+                            } else {
+                                Category(assessmentContext: context, languageContext: languageContext, mastered: masteryMapping[context.id]!)
+                                    .frame(height: 60)
+                            }
+                        }
                     }.listRowBackground(Color.white)
                 }
             }
-            .navigationTitle(Text("Practice"))
+            .navigationTitle(Text(languageContext.label))
             .onAppear() {
                 initializeLanguageData(language: languageContext.id)
+                masteryMapping = CoreDataManager().fetchMasteryArray(language: languageContext.id)
+                // TODO: Do one, larger request instead of multiple smaller ones.
+                masteredTopics = getMasteredTopics()
+                categoryScore = getCategoryScore()
+                highestStreak = getHighestStreak()
             }
     }
     
@@ -64,6 +102,26 @@ struct AssessmentsView: View {
             return true
         }
         return false
+    }
+    
+    func getCategoryScore() -> Int
+    {
+        return CoreDataManager().fetchLanguageScore(language: languageContext.id)
+    }
+    
+    func getHighestStreak() -> Int
+    {
+        return CoreDataManager().fetchHighestStreak(language: languageContext.id)
+    }
+    
+    func getMasteredTopics() -> Int
+    {
+        var count = 0
+        for key in masteryMapping.keys
+        {
+            count += (masteryMapping[key]! ? 1 : 0)
+        }
+        return count
     }
 }
 

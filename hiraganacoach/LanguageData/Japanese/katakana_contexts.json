@@ -1,0 +1,306 @@
+[
+    {
+        "label" : "Dojo",
+        "category_label" : "ド",
+        "id" : "dojo",
+        "assessmentType" : "dojo",
+        "categories" : []
+    },
+    {
+        "label" : "Vowels",
+        "category_label" : "ア",
+        "id" : "vowels",
+        "assessmentType" : "practice",
+        "categories" : [
+            "vowels"
+        ]
+    },
+    {
+        "label" : "K Consonants",
+        "category_label" : "カ",
+        "id" : "k consonants",
+        "assessmentType" : "practice",
+        "categories" : [
+            "k consonants"
+        ]
+    },
+    {
+        "label" : "S Consonants",
+        "category_label" : "サ",
+        "id" : "s consonants",
+        "assessmentType" : "practice",
+        "categories" : [
+            "s consonants"
+        ]
+    },
+    {
+        "label" : "T Consonants",
+        "category_label" : "タ",
+        "id" : "t consonants",
+        "assessmentType" : "practice",
+        "categories" : [
+            "t consonants"
+        ]
+    },
+    {
+        "label" : "N Consonants",
+        "category_label" : "ナ",
+        "id" : "n consonants",
+        "assessmentType" : "practice",
+        "categories" : [
+            "n consonants"
+        ]
+    },
+    {
+        "label" : "H Consonants",
+        "category_label" : "ハ",
+        "id" : "h consonants",
+        "assessmentType" : "practice",
+        "categories" : [
+            "h consonants"
+        ]
+    },
+    {
+        "label" : "M Consonants",
+        "category_label" : "マ",
+        "id" : "m consonants",
+        "assessmentType" : "practice",
+        "categories" : [
+            "m consonants"
+        ]
+    },
+    {
+        "label" : "Y Consonants",
+        "category_label" : "ヤ",
+        "id" : "y consonants",
+        "assessmentType" : "practice",
+        "categories" : [
+            "y consonants"
+        ]
+    },
+    {
+        "label" : "R Consonants",
+        "category_label" : "ラ",
+        "id" : "r consonants",
+        "assessmentType" : "practice",
+        "categories" : [
+            "r consonants"
+        ]
+    },
+    {
+        "label" : "W Consonants",
+        "category_label" : "ワ",
+        "id" : "w consonants",
+        "assessmentType" : "practice",
+        "categories" : [
+            "w consonants"
+        ]
+    },
+    {
+        "label" : "Dakuten G",
+        "category_label" : "ガ",
+        "id" : "dakuten k",
+        "assessmentType" : "practice",
+        "categories" : [
+            "dakuten k"
+        ]
+    },
+    {
+        "label" : "Dakuten Z",
+        "category_label" : "ザ",
+        "id" : "dakuten s",
+        "assessmentType" : "practice",
+        "categories" : [
+            "dakuten s"
+        ]
+    },
+    {
+        "label" : "Dakuten D",
+        "category_label" : "ダ",
+        "id" : "dakuten t",
+        "assessmentType" : "practice",
+        "categories" : [
+            "dakuten t"
+        ]
+    },
+    {
+        "label" : "Dakuten B",
+        "category_label" : "バ",
+        "id" : "dakuten h b",
+        "assessmentType" : "practice",
+        "categories" : [
+            "dakuten h b"
+        ]
+    },
+    {
+        "label" : "Dakuten P",
+        "category_label" : "パ",
+        "id" : "dakuten h p",
+        "assessmentType" : "practice",
+        "categories" : [
+            "dakuten h p"
+        ]
+    },
+    {
+        "label" : "K Combination",
+        "category_label" : "キャ",
+        "id" : "k combination",
+        "assessmentType" : "practice",
+        "categories" : [
+            "k combination"
+        ]
+    },
+    {
+        "label" : "G Combination",
+        "category_label" : "ギャ",
+        "id" : "g combination",
+        "assessmentType" : "practice",
+        "categories" : [
+            "g combination"
+        ]
+    },
+    {
+        "label" : "S Combination",
+        "category_label" : "シャ",
+        "id" : "s combination",
+        "assessmentType" : "practice",
+        "categories" : [
+            "s combination"
+        ]
+    },
+    {
+        "label" : "J Combination",
+        "category_label" : "ジャ",
+        "id" : "j combination",
+        "assessmentType" : "practice",
+        "categories" : [
+            "j combination"
+        ]
+    },
+    {
+        "label" : "C Combination",
+        "category_label" : "チャ",
+        "id" : "c combination",
+        "assessmentType" : "practice",
+        "categories" : [
+            "c combination"
+        ]
+    },
+    {
+        "label" : "D Combination",
+        "category_label" : "ヂャ",
+        "id" : "d combination",
+        "assessmentType" : "practice",
+        "categories" : [
+            "d combination"
+        ]
+    },
+    {
+        "label" : "N Combination",
+        "category_label" : "ニャ",
+        "id" : "n combination",
+        "assessmentType" : "practice",
+        "categories" : [
+            "n combination"
+        ]
+    },
+    {
+        "label" : "H Combination",
+        "category_label" : "ヒャ",
+        "id" : "h combination",
+        "assessmentType" : "practice",
+        "categories" : [
+            "h combination"
+        ]
+    },
+    {
+        "label" : "B Combination",
+        "category_label" : "ビャ",
+        "id" : "b combination",
+        "assessmentType" : "practice",
+        "categories" : [
+            "b combination"
+        ]
+    },
+    {
+        "label" : "P Combination",
+        "category_label" : "ピャ",
+        "id" : "p combination",
+        "assessmentType" : "practice",
+        "categories" : [
+            "p combination"
+        ]
+    },
+    {
+        "label" : "M Combination",
+        "category_label" : "ミャ",
+        "id" : "m combination",
+        "assessmentType" : "practice",
+        "categories" : [
+            "m combination"
+        ]
+    },
+    {
+        "label" : "R Combination",
+        "category_label" : "リャ",
+        "id" : "r combination",
+        "assessmentType" : "practice",
+        "categories" : [
+            "r combination"
+        ]
+    },
+    {
+        "label" : "V Combination",
+        "category_label" : "ヴァ",
+        "id" : "v combination",
+        "assessmentType" : "practice",
+        "categories" : [
+            "v combination"
+        ]
+    },
+    {
+        "label" : "U Combination",
+        "category_label" : "ウィ",
+        "id" : "u r combination",
+        "assessmentType" : "practice",
+        "categories" : [
+            "u combination"
+        ]
+    },
+    {
+        "label" : "F Combination",
+        "category_label" : "ファ",
+        "id" : "f combination",
+        "assessmentType" : "practice",
+        "categories" : [
+            "f combination"
+        ]
+    },
+    {
+        "label" : "-E Combination",
+        "category_label" : "シェ",
+        "id" : "e combination",
+        "assessmentType" : "practice",
+        "categories" : [
+            "e combination"
+        ]
+    },
+    {
+        "label" : "T/D Combination",
+        "category_label" : "トゥ",
+        "id" : "t+d combination",
+        "assessmentType" : "practice",
+        "categories" : [
+            "t+d combination"
+        ]
+    },
+    {
+        "label" : "Ts Combination",
+        "category_label" : "ツァ",
+        "id" : "ts combination",
+        "assessmentType" : "practice",
+        "categories" : [
+            "ts combination"
+        ]
+    }
+]

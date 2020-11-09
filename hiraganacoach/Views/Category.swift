@@ -13,11 +13,13 @@ struct Category : Identifiable, View {
     
     var assessmentContext : AssessmentContext
     var languageContext : LanguageContext
+    var mastered : Bool
     var id : String
     
-    init(assessmentContext : AssessmentContext, languageContext : LanguageContext) {
+    init(assessmentContext : AssessmentContext, languageContext : LanguageContext, mastered : Bool) {
         self.assessmentContext = assessmentContext
         self.languageContext = languageContext
+        self.mastered = mastered
         self.id = assessmentContext.id
     }
     
@@ -29,7 +31,7 @@ struct Category : Identifiable, View {
                     ZStack {
                         RoundedRectangle(cornerRadius: 10.0, style: .continuous)
                             .frame(width: 50, height: 50, alignment: .center)
-                            .foregroundColor(.deepBlue)
+                            .foregroundColor(mastered ? .deepBlue : .rainyBlue)
 
                                 .background(Color.white)
                         Text(assessmentContext.category_label)

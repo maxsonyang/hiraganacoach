@@ -11,8 +11,5 @@ var characterMapping : [String : String] = [:]
 var character_categories : [String : [String]] = [:]
 
 // Category Labels
-
 var contexts : [AssessmentContext] = []
-
-
 let ASSESSMENT = Assessment()
