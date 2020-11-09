@@ -9,28 +9,33 @@ import XCTest
 @testable import hiraganacoach
 import CoreData
 
-class CharacterRecordTests: XCTestCase {
-
+class ApplicationDataInterfaceTests : XCTestCase
+{
     var coreDataManager : TestCoreDataManager!
-    var applicationDataManager : ApplicationDataManager!
+    var applicationDataInterface : ApplicationDataInterface!
     
     override func setUp()
     {
         super.setUp()
         coreDataManager = TestCoreDataManager()
-        applicationDataManager = ApplicationDataManager(cdm: coreDataManager, vc: coreDataManager.mainContext)
+        applicationDataInterface = ApplicationDataInterface(cdm: coreDataManager, vc: coreDataManager.mainContext)
     }
     
     override func tearDown()
     {
         super.tearDown()
         coreDataManager = nil
-        applicationDataManager = nil
+        applicationDataInterface = nil
     }
+}
+
+// MARK: Character Record Tests
+class CharacterRecordTests: ApplicationDataInterfaceTests
+{
     
     func testCreateNewCharacterRecord()
     {
-        let record = applicationDataManager.createCharacterRecord(character: "a", language: "English")
+        let record = applicationDataInterface.createCharacterRecord(character: "a", language: "English")
         
         XCTAssertEqual(record.character, "a")
         XCTAssertEqual(record.language, "English")
@@ -42,11 +47,27 @@ class CharacterRecordTests: XCTestCase {
         XCTAssertTrue(confusion_index.count == 0)
     }
     
+    func testCharacterRecordExists()
+    {
+        // Check for non-existent record
+        var exists = applicationDataInterface.recordExists(character: "a", language: "English")
+        XCTAssertFalse(exists)
+        
+        // Check for existing
+        applicationDataInterface.createCharacterRecord(character: "a", language: "English")
+        exists = applicationDataInterface.recordExists(character: "a", language: "English")
+        XCTAssertTrue(exists)
+        
+        // Check for exact matching record (no false-positives)
+        exists = applicationDataInterface.recordExists(character: "non", language: "existent")
+        XCTAssertFalse(exists)
+    }
+    
     func testGetCharacterRecord()
     {
-        let created_record = applicationDataManager.createCharacterRecord(character: "a", language: "English")
+        let created_record = applicationDataInterface.createCharacterRecord(character: "a", language: "English")
         
-        let record = applicationDataManager.getCharacterRecord(character: "a", language: "English")
+        let record = applicationDataInterface.getCharacterRecord(character: "a", language: "English")
         
         XCTAssertTrue(created_record === record)
         XCTAssertEqual(record.character, "a")
@@ -62,23 +83,23 @@ class CharacterRecordTests: XCTestCase {
     func testNoDuplicateRecord()
     {
         // Attempts at creating an existing record should return the existing record
-        let created_record = applicationDataManager.createCharacterRecord(character: "a", language: "English")
-        let attempt_2 = applicationDataManager.createCharacterRecord(character: "a", language: "English")
+        let created_record = applicationDataInterface.createCharacterRecord(character: "a", language: "English")
+        let attempt_2 = applicationDataInterface.createCharacterRecord(character: "a", language: "English")
         XCTAssertTrue(created_record === attempt_2)
     }
     
     func testUpdateCharacterRecordCorrect()
     {
-        applicationDataManager.createCharacterRecord(character: "a", language: "English")
+        applicationDataInterface.createCharacterRecord(character: "a", language: "English")
         
-        var record = applicationDataManager.getCharacterRecord(character: "a", language: "English")
+        var record = applicationDataInterface.getCharacterRecord(character: "a", language: "English")
         
         record.attempts += 1
         record.correct += 1
         
-        applicationDataManager.update(record)
+        applicationDataInterface.update(record)
         
-        record = applicationDataManager.getCharacterRecord(character: "a", language: "English")
+        record = applicationDataInterface.getCharacterRecord(character: "a", language: "English")
         
         XCTAssertEqual(record.character, "a")
         XCTAssertEqual(record.language, "English")
@@ -92,9 +113,9 @@ class CharacterRecordTests: XCTestCase {
     
     func testUpdateCharacterRecordIncorrect()
     {
-        applicationDataManager.createCharacterRecord(character: "a", language: "English")
+        applicationDataInterface.createCharacterRecord(character: "a", language: "English")
         
-        var record = applicationDataManager.getCharacterRecord(character: "a", language: "English")
+        var record = applicationDataInterface.getCharacterRecord(character: "a", language: "English")
 
         record.attempts += 1
 
@@ -102,9 +123,9 @@ class CharacterRecordTests: XCTestCase {
         confusion_index["b"] = 1
         record.confusion_index = confusion_index as NSObject
 
-        applicationDataManager.update(record)
+        applicationDataInterface.update(record)
 
-        record = applicationDataManager.getCharacterRecord(character: "a", language: "English")
+        record = applicationDataInterface.getCharacterRecord(character: "a", language: "English")
 
         XCTAssertEqual(record.character, "a")
         XCTAssertEqual(record.language, "English")
@@ -121,9 +142,82 @@ class CharacterRecordTests: XCTestCase {
     
     func testDeleteCharacterRecord()
     {
-        let record = applicationDataManager.createCharacterRecord(character: "a", language: "English")
-        XCTAssertTrue(applicationDataManager.recordExists(character: "a", language: "English"))
-        applicationDataManager.delete(record)
-        XCTAssertFalse(applicationDataManager.recordExists(character: "a", language: "English"))
+        let record = applicationDataInterface.createCharacterRecord(character: "a", language: "English")
+        XCTAssertTrue(applicationDataInterface.recordExists(character: "a", language: "English"))
+        applicationDataInterface.delete(record)
+        XCTAssertFalse(applicationDataInterface.recordExists(character: "a", language: "English"))
+    }
+}
+
+// MARK: Assessment Metadata Tests
+class AssessmentMetadataTests : ApplicationDataInterfaceTests
+{
+    func testCreateNewAssessmentMetadata()
+    {
+        let metadata = applicationDataInterface.createAssessmentMetadata(id: "test", language: "English", assessmentType: "testing")
+        
+        XCTAssertEqual(metadata.id, "test")
+        XCTAssertEqual(metadata.language, "English")
+        XCTAssertEqual(metadata.assessmentType, "testing")
+        XCTAssertEqual(metadata.highestStreak, 0)
+        XCTAssertFalse(metadata.mastered)
+    }
+    
+    func testAssessmentMetadataExists()
+    {
+        // Checks for non-existent record.
+        var dne = applicationDataInterface.assessmentMetadataExists(id: "test", language: "English", assessmentType: "test")
+        XCTAssertFalse(dne)
+        
+        // Checks for existing record.
+        applicationDataInterface.createAssessmentMetadata(id: "test", language: "English", assessmentType: "test")
+        let exists = applicationDataInterface.assessmentMetadataExists(id: "test", language: "English", assessmentType: "test")
+        XCTAssertTrue(exists)
+        
+        // Checks to ensure exact match with predicate
+        dne = applicationDataInterface.assessmentMetadataExists(id: "non", language: "existent", assessmentType: "Metadata")
+        XCTAssertFalse(dne)
+    }
+    
+    func testGetAssessmentMetadata()
+    {
+        applicationDataInterface.createAssessmentMetadata(id: "test", language: "English", assessmentType: "test")
+        let metadata = applicationDataInterface.getAssessmentMetadata(id: "test", language: "English", assessmentType: "test")
+        
+        XCTAssertEqual(metadata.id, "test")
+        XCTAssertEqual(metadata.language, "English")
+        XCTAssertEqual(metadata.assessmentType, "test")
+        XCTAssertEqual(metadata.highestStreak, 0)
+        XCTAssertFalse(metadata.mastered)
+    }
+    
+    func testUpdateAssessmentMetadata()
+    {
+        var metadata = applicationDataInterface.createAssessmentMetadata(id: "test", language: "English", assessmentType: "test")
+        metadata.mastered = true
+        metadata.highestStreak = 9001
+        
+        applicationDataInterface.update(metadata: metadata)
+        
+        metadata = applicationDataInterface.getAssessmentMetadata(id: "test", language: "English", assessmentType: "test")
+        XCTAssertEqual(metadata.id, "test")
+        XCTAssertEqual(metadata.language, "English")
+        XCTAssertEqual(metadata.assessmentType, "test")
+        XCTAssertEqual(metadata.highestStreak, 9001)
+        XCTAssertTrue(metadata.mastered)
+    }
+    
+    func testDeleteMetadata()
+    {
+        var exists = applicationDataInterface.assessmentMetadataExists(id: "test", language: "English", assessmentType: "test")
+        XCTAssertFalse(exists)
+        
+        let metadata = applicationDataInterface.createAssessmentMetadata(id: "test", language: "English", assessmentType: "test")
+        exists = applicationDataInterface.assessmentMetadataExists(id: "test", language: "English", assessmentType: "test")
+        XCTAssertTrue(exists)
+        
+        applicationDataInterface.delete(metadata: metadata)
+        exists = applicationDataInterface.assessmentMetadataExists(id: "test", language: "English", assessmentType: "test")
+        XCTAssertFalse(exists)
     }
 }

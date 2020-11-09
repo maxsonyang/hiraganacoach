@@ -10,7 +10,7 @@
 		34FD3AD186083DA10AF4781C /* Pods_hiraganacoachTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B034325B81615C42D8A79C2D /* Pods_hiraganacoachTests.framework */; };
 		4E30B87360CC4FA23CB33E9F /* Pods_hiraganacoach.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A5D60E1B4816A25B0ACDAF /* Pods_hiraganacoach.framework */; };
 		68285ADA255905BF00ABC5B6 /* TestCoreDataManagerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68285AD9255905BF00ABC5B6 /* TestCoreDataManagerClass.swift */; };
-		68285AE625590C6A00ABC5B6 /* ApplicationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68285AE525590C6A00ABC5B6 /* ApplicationDataManager.swift */; };
+		68285AE625590C6A00ABC5B6 /* ApplicationDataInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68285AE525590C6A00ABC5B6 /* ApplicationDataInterface.swift */; };
 		68285B0225590EBC00ABC5B6 /* ApplicationDataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68285B0125590EBC00ABC5B6 /* ApplicationDataManagerTests.swift */; };
 		6849DD98254B71B200FC8C86 /* Performance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6849DD97254B71B200FC8C86 /* Performance.swift */; };
 		68692C2025434009003828F5 /* AssessmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68692C1F25434009003828F5 /* AssessmentsView.swift */; };
@@ -33,7 +33,6 @@
 		68986EA22540B01D002C566A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68986EA12540B01D002C566A /* Preview Assets.xcassets */; };
 		68986EA42540B01D002C566A /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68986EA32540B01D002C566A /* CoreDataManager.swift */; };
 		68986EA72540B01D002C566A /* hiraganacoach.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68986EA52540B01D002C566A /* hiraganacoach.xcdatamodeld */; };
-		68986EB22540B01E002C566A /* hiraganacoachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68986EB12540B01E002C566A /* hiraganacoachTests.swift */; };
 		68986EBD2540B01E002C566A /* hiraganacoachUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68986EBC2540B01E002C566A /* hiraganacoachUITests.swift */; };
 		68986ECE2540B240002C566A /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68986ECD2540B240002C566A /* QuizView.swift */; };
 		68986EE72540CCA9002C566A /* hiraganadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68986EE62540CCA9002C566A /* hiraganadata.swift */; };
@@ -70,7 +69,7 @@
 		2FFFF24A0D41908497AD40F1 /* Pods-hiraganacoach.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hiraganacoach.release.xcconfig"; path = "Target Support Files/Pods-hiraganacoach/Pods-hiraganacoach.release.xcconfig"; sourceTree = "<group>"; };
 		47D4B32DE7E6B2DAB2EBE3EE /* Pods-hiraganacoach-hiraganacoachUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hiraganacoach-hiraganacoachUITests.release.xcconfig"; path = "Target Support Files/Pods-hiraganacoach-hiraganacoachUITests/Pods-hiraganacoach-hiraganacoachUITests.release.xcconfig"; sourceTree = "<group>"; };
 		68285AD9255905BF00ABC5B6 /* TestCoreDataManagerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoreDataManagerClass.swift; sourceTree = "<group>"; };
-		68285AE525590C6A00ABC5B6 /* ApplicationDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDataManager.swift; sourceTree = "<group>"; };
+		68285AE525590C6A00ABC5B6 /* ApplicationDataInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDataInterface.swift; sourceTree = "<group>"; };
 		68285B0125590EBC00ABC5B6 /* ApplicationDataManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApplicationDataManagerTests.swift; path = hiraganacoachTests/ApplicationDataManagerTests.swift; sourceTree = SOURCE_ROOT; };
 		6849DD97254B71B200FC8C86 /* Performance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Performance.swift; sourceTree = "<group>"; };
 		68692C1F25434009003828F5 /* AssessmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentsView.swift; sourceTree = "<group>"; };
@@ -96,7 +95,6 @@
 		68986EA62540B01D002C566A /* hiraganacoach.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hiraganacoach.xcdatamodel; sourceTree = "<group>"; };
 		68986EA82540B01D002C566A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68986EAD2540B01E002C566A /* hiraganacoachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hiraganacoachTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		68986EB12540B01E002C566A /* hiraganacoachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiraganacoachTests.swift; sourceTree = "<group>"; };
 		68986EB32540B01E002C566A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68986EB82540B01E002C566A /* hiraganacoachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hiraganacoachUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68986EBC2540B01E002C566A /* hiraganacoachUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiraganacoachUITests.swift; sourceTree = "<group>"; };
@@ -192,7 +190,8 @@
 			isa = PBXGroup;
 			children = (
 				68986EA32540B01D002C566A /* CoreDataManager.swift */,
-				68285AE525590C6A00ABC5B6 /* ApplicationDataManager.swift */,
+				68285AE525590C6A00ABC5B6 /* ApplicationDataInterface.swift */,
+				68986EA52540B01D002C566A /* hiraganacoach.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -251,7 +250,6 @@
 				68986EEB2540E8B8002C566A /* TODO.md */,
 				68986E9E2540B01D002C566A /* Assets.xcassets */,
 				68986EA82540B01D002C566A /* Info.plist */,
-				68986EA52540B01D002C566A /* hiraganacoach.xcdatamodeld */,
 				68986EA02540B01D002C566A /* Preview Content */,
 			);
 			path = hiraganacoach;
@@ -269,7 +267,6 @@
 			isa = PBXGroup;
 			children = (
 				68285B0125590EBC00ABC5B6 /* ApplicationDataManagerTests.swift */,
-				68986EB12540B01E002C566A /* hiraganacoachTests.swift */,
 				68285AD9255905BF00ABC5B6 /* TestCoreDataManagerClass.swift */,
 				68986EB32540B01E002C566A /* Info.plist */,
 			);
@@ -573,7 +570,7 @@
 				68986ECE2540B240002C566A /* QuizView.swift in Sources */,
 				68692C2D25438985003828F5 /* QuestionRecommendation.swift in Sources */,
 				68986EF02540FDBB002C566A /* Colors.swift in Sources */,
-				68285AE625590C6A00ABC5B6 /* ApplicationDataManager.swift in Sources */,
+				68285AE625590C6A00ABC5B6 /* ApplicationDataInterface.swift in Sources */,
 				68692C2025434009003828F5 /* AssessmentsView.swift in Sources */,
 				68692C28254342D3003828F5 /* Category.swift in Sources */,
 				6849DD98254B71B200FC8C86 /* Performance.swift in Sources */,
@@ -594,7 +591,6 @@
 			files = (
 				68285ADA255905BF00ABC5B6 /* TestCoreDataManagerClass.swift in Sources */,
 				68285B0225590EBC00ABC5B6 /* ApplicationDataManagerTests.swift in Sources */,
-				68986EB22540B01E002C566A /* hiraganacoachTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

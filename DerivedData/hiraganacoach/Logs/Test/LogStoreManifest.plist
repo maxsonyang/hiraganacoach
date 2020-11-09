@@ -6,10 +6,10 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>150D49CE-5B06-4921-8F80-A1F0873174BD</key>
+		<key>089DF232-81CF-49B8-BB34-7E08DDA89EB6</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>3B0C6106-D7D8-4D46-AA0A-7363A5CE0336</string>
+			<string>F2158475-58A6-4309-97AD-6A15A651EB7A</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -22,7 +22,652 @@
 			<key>domainType</key>
 			<string>com.apple.dt.unit.cocoaUnitTest</string>
 			<key>fileName</key>
-			<string>Test-hiraganacoach-2020.11.08_23-04-31--0800.xcresult</string>
+			<string>Test-hiraganacoach-2020.11.08_23-32-29--0800.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626599949.97288096</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>089DF232-81CF-49B8-BB34-7E08DDA89EB6</string>
+		</dict>
+		<key>1727D64E-2479-47BE-AF72-3A0C593DB9CD</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>66B6347E-1B11-4C12-A8D4-326A8F08DF8C</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-hiraganacoach-2020.11.08_23-46-59--0800.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626600819.35860598</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>1727D64E-2479-47BE-AF72-3A0C593DB9CD</string>
+		</dict>
+		<key>1F432461-18D6-469F-A8FE-750730EF3FF2</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>9F2C0291-EC58-466E-B1C9-3D68C51D8478</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-hiraganacoach-2020.11.09_12-25-47--0800.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>T</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626646347.80481601</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>1F432461-18D6-469F-A8FE-750730EF3FF2</string>
+		</dict>
+		<key>24711B3E-1811-4A37-879F-9269B0596DEE</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>E8E87E71-C987-4CD7-AB39-70AAF9A3E052</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-hiraganacoach-2020.11.09_12-51-57--0800.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626647917.46226704</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>24711B3E-1811-4A37-879F-9269B0596DEE</string>
+		</dict>
+		<key>37B53CA5-C857-4B0A-8B5D-4DF4B5FA9A94</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>A4503449-E312-423E-856E-6C0B7F0F5936</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-hiraganacoach-2020.11.09_12-57-27--0800.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626648247.838696</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>37B53CA5-C857-4B0A-8B5D-4DF4B5FA9A94</string>
+		</dict>
+		<key>5066C715-C816-4A2C-8677-40E5F634998E</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>4821A138-F824-4853-9CCF-E955BD4CB182</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-hiraganacoach-2020.11.09_12-30-44--0800.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626646644.79411399</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>5066C715-C816-4A2C-8677-40E5F634998E</string>
+		</dict>
+		<key>5E936DC8-F5E8-4111-967A-65589A179A0B</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>32115FB8-C2AF-41CF-A4AF-EF5C89FD6C36</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-hiraganacoach-2020.11.09_12-51-37--0800.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>T</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626647897.22418106</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>5E936DC8-F5E8-4111-967A-65589A179A0B</string>
+		</dict>
+		<key>7CC3502E-837A-4116-B8D5-328BD6EC2B34</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>1C689BC2-D094-4534-ACCB-C416021E0FEB</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-hiraganacoach-2020.11.09_12-55-23--0800.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>T</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626648123.88316095</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>7CC3502E-837A-4116-B8D5-328BD6EC2B34</string>
+		</dict>
+		<key>7F039827-C974-4B10-BB9A-03BC13C776D2</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>55FE26AC-39F2-466E-B018-62E54B8B7DED</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-hiraganacoach-2020.11.09_12-28-13--0800.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>T</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626646493.50007701</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>7F039827-C974-4B10-BB9A-03BC13C776D2</string>
+		</dict>
+		<key>821D79E7-DEA3-4435-B4D9-5A522992F6DA</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>06814507-FFB9-46F2-BA44-205679AA8DD7</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-hiraganacoach-2020.11.08_23-48-08--0800.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626600888.98114896</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>821D79E7-DEA3-4435-B4D9-5A522992F6DA</string>
+		</dict>
+		<key>A1390A77-BBEC-4BF2-81E6-8F71548C145C</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>56BA343F-3B7A-4468-8032-A3236BCB2C93</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-hiraganacoach-2020.11.09_12-52-07--0800.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626647927.34261894</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>A1390A77-BBEC-4BF2-81E6-8F71548C145C</string>
+		</dict>
+		<key>BC004D9E-2AAD-406D-82F0-664C124FA96F</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>F176DB44-5FDD-44AD-8C6E-2678B5D9328F</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-hiraganacoach-2020.11.09_00-02-08--0800.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626601728.758407</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>BC004D9E-2AAD-406D-82F0-664C124FA96F</string>
+		</dict>
+		<key>BC06D0D9-8CBA-4252-88D6-9EDDA18AA487</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>D0A5EBFD-8C6A-4AF6-8D49-741B75DF0EC9</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-hiraganacoach-2020.11.09_00-00-38--0800.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626601638.826594</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>BC06D0D9-8CBA-4252-88D6-9EDDA18AA487</string>
+		</dict>
+		<key>BC912581-39E0-428C-87DB-C755B553AA6C</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>50E0C3DC-B5DA-4926-86F3-E20D051D4BA1</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-hiraganacoach-2020.11.09_12-55-11--0800.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626648111.97713304</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>BC912581-39E0-428C-87DB-C755B553AA6C</string>
+		</dict>
+		<key>C40FAD0F-FDBE-4CAF-B2AF-6F47898A150E</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>EB9EB58D-7FA2-4FB2-A6AB-7ED75BB671B4</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-hiraganacoach-2020.11.09_12-30-33--0800.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626646633.90155005</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>C40FAD0F-FDBE-4CAF-B2AF-6F47898A150E</string>
+		</dict>
+		<key>D3D68E21-850E-4569-85C3-81C89320818B</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>33DF25CA-FF61-47BA-98DD-7B2E022E72F9</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-hiraganacoach-2020.11.08_23-50-37--0800.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasPrimaryLog</key>
@@ -41,22 +686,22 @@
 			<key>signature</key>
 			<string>Test hiraganacoach</string>
 			<key>timeStartedRecording</key>
-			<real>626598271.91187298</real>
+			<real>626601037.84759104</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Test hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>150D49CE-5B06-4921-8F80-A1F0873174BD</string>
+			<string>D3D68E21-850E-4569-85C3-81C89320818B</string>
 		</dict>
-		<key>152D5EB4-4779-495A-9868-BE492A95A364</key>
+		<key>DC18E8E2-A4D8-49E5-A664-102B7B177E59</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>B14371ED-B9C5-441A-8902-E02BA2198739</string>
+			<string>42DEE40C-05AD-45D5-92D1-25CB40C39EF6</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>E</string>
 			</dict>
 			<key>className</key>
 			<string>IDESchemeActionsInvocationRecord</string>
@@ -65,7 +710,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.unit.cocoaUnitTest</string>
 			<key>fileName</key>
-			<string>Test-hiraganacoach-2020.11.08_23-08-21--0800.xcresult</string>
+			<string>Test-hiraganacoach-2020.11.08_23-46-42--0800.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasPrimaryLog</key>
@@ -84,18 +729,147 @@
 			<key>signature</key>
 			<string>Test hiraganacoach</string>
 			<key>timeStartedRecording</key>
-			<real>626598501.42952394</real>
+			<real>626600802.98470902</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Test hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>152D5EB4-4779-495A-9868-BE492A95A364</string>
+			<string>DC18E8E2-A4D8-49E5-A664-102B7B177E59</string>
 		</dict>
-		<key>20787280-C93B-4B37-8C6E-37489DD563DE</key>
+		<key>E203CB57-ADF5-4F2F-A725-FE2B54864A9D</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>31A2D68D-BD5F-45D2-AF29-4886346C18DA</string>
+			<string>076A9DC6-8383-47F7-918C-8DA59C2A3098</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-hiraganacoach-2020.11.09_00-01-51--0800.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626601711.07402301</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>E203CB57-ADF5-4F2F-A725-FE2B54864A9D</string>
+		</dict>
+		<key>E5621448-7C02-49E3-AAA9-2C9CEC4C13FE</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>700A538C-AE40-4FC3-A45F-E679A23B9564</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-hiraganacoach-2020.11.09_00-01-59--0800.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626601719.40126801</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>E5621448-7C02-49E3-AAA9-2C9CEC4C13FE</string>
+		</dict>
+		<key>ED65982E-968D-4572-A254-39A902AB65E8</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>B9C3082F-BA29-409A-81DE-CEAFB173BC4C</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-hiraganacoach-2020.11.09_12-26-21--0800.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>T</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hiraganacoach project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hiraganacoach</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test hiraganacoach</string>
+			<key>timeStartedRecording</key>
+			<real>626646381.18269002</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test hiraganacoach</string>
+			<key>uniqueIdentifier</key>
+			<string>ED65982E-968D-4572-A254-39A902AB65E8</string>
+		</dict>
+		<key>FCA5B6CB-3F09-4680-B78A-40D048462C68</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>7E0D02D1-E514-48C5-A5A5-7DB34244494B</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -108,7 +882,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.unit.cocoaUnitTest</string>
 			<key>fileName</key>
-			<string>Test-hiraganacoach-2020.11.08_23-21-53--0800.xcresult</string>
+			<string>Test-hiraganacoach-2020.11.09_12-57-09--0800.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasPrimaryLog</key>
@@ -116,7 +890,7 @@
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>E</string>
+				<string>T</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>hiraganacoach project</string>
@@ -127,701 +901,13 @@
 			<key>signature</key>
 			<string>Test hiraganacoach</string>
 			<key>timeStartedRecording</key>
-			<real>626599313.45793796</real>
+			<real>626648229.15466499</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Test hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>20787280-C93B-4B37-8C6E-37489DD563DE</string>
-		</dict>
-		<key>2158986B-9E3D-4D5F-A773-2C457EFC55B3</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>2B9A8C1F-F149-4A4B-9B1A-D38DD9F547A0</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.unit.cocoaUnitTest</string>
-			<key>fileName</key>
-			<string>Test-hiraganacoach-2020.11.08_23-03-24--0800.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>hiraganacoach project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>hiraganacoach</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Test hiraganacoach</string>
-			<key>timeStartedRecording</key>
-			<real>626598204.08370101</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Test hiraganacoach</string>
-			<key>uniqueIdentifier</key>
-			<string>2158986B-9E3D-4D5F-A773-2C457EFC55B3</string>
-		</dict>
-		<key>30AD3A1B-51F5-47E1-885E-258A5AD27A5A</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>5187EDBA-6B04-469F-ADFD-1574E87AD209</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.unit.cocoaUnitTest</string>
-			<key>fileName</key>
-			<string>Test-hiraganacoach-2020.11.08_22-53-14--0800.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>hiraganacoach project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>hiraganacoach</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Test hiraganacoach</string>
-			<key>timeStartedRecording</key>
-			<real>626597594.859707</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Test hiraganacoach</string>
-			<key>uniqueIdentifier</key>
-			<string>30AD3A1B-51F5-47E1-885E-258A5AD27A5A</string>
-		</dict>
-		<key>59B7219F-8DE7-4EEA-8C73-1402B3DFC96C</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>7195072D-886F-4B54-AB6F-2CD68A2EC87E</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.unit.cocoaUnitTest</string>
-			<key>fileName</key>
-			<string>Test-hiraganacoach-2020.11.08_23-22-49--0800.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>hiraganacoach project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>hiraganacoach</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Test hiraganacoach</string>
-			<key>timeStartedRecording</key>
-			<real>626599369.35364795</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Test hiraganacoach</string>
-			<key>uniqueIdentifier</key>
-			<string>59B7219F-8DE7-4EEA-8C73-1402B3DFC96C</string>
-		</dict>
-		<key>61F989C1-152B-4395-9A22-6C041FD38F9F</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>FDAD5984-CD75-4545-9F93-1B6A06EFF0A0</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.unit.cocoaUnitTest</string>
-			<key>fileName</key>
-			<string>Test-hiraganacoach-2020.11.08_23-21-38--0800.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>hiraganacoach project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>hiraganacoach</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Test hiraganacoach</string>
-			<key>timeStartedRecording</key>
-			<real>626599298.875</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Test hiraganacoach</string>
-			<key>uniqueIdentifier</key>
-			<string>61F989C1-152B-4395-9A22-6C041FD38F9F</string>
-		</dict>
-		<key>654BE951-B4A3-4D46-A8E0-215BF8A0E77D</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>9536DBB8-A64D-4FEF-8384-FEF6C255F530</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.unit.cocoaUnitTest</string>
-			<key>fileName</key>
-			<string>Test-hiraganacoach-2020.11.08_23-14-26--0800.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>hiraganacoach project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>hiraganacoach</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Test hiraganacoach</string>
-			<key>timeStartedRecording</key>
-			<real>626598866.65925598</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Test hiraganacoach</string>
-			<key>uniqueIdentifier</key>
-			<string>654BE951-B4A3-4D46-A8E0-215BF8A0E77D</string>
-		</dict>
-		<key>667EFFBB-70AB-4A23-BAF2-15E779794E5D</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>0AB3E391-D81F-4A39-B442-EF82CD4F3824</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.unit.cocoaUnitTest</string>
-			<key>fileName</key>
-			<string>Test-hiraganacoach-2020.11.08_23-16-56--0800.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>hiraganacoach project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>hiraganacoach</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Test hiraganacoach</string>
-			<key>timeStartedRecording</key>
-			<real>626599016.86522305</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Test hiraganacoach</string>
-			<key>uniqueIdentifier</key>
-			<string>667EFFBB-70AB-4A23-BAF2-15E779794E5D</string>
-		</dict>
-		<key>6F17CB6F-D662-4CBF-8F87-1FA5BE6F1DEA</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>AA9DC39B-FAFC-4BDF-BA91-B55E3F660E09</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.unit.cocoaUnitTest</string>
-			<key>fileName</key>
-			<string>Test-hiraganacoach-2020.11.08_22-28-32--0800.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>hiraganacoach project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>hiraganacoach</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Test hiraganacoach</string>
-			<key>timeStartedRecording</key>
-			<real>626596112.396842</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Test hiraganacoach</string>
-			<key>uniqueIdentifier</key>
-			<string>6F17CB6F-D662-4CBF-8F87-1FA5BE6F1DEA</string>
-		</dict>
-		<key>7925A967-44E1-43D1-82B1-0A13775D69AD</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>8AE27BB5-6605-42BA-8BE5-A64D17520149</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.unit.cocoaUnitTest</string>
-			<key>fileName</key>
-			<string>Test-hiraganacoach-2020.11.08_23-07-58--0800.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>hiraganacoach project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>hiraganacoach</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Test hiraganacoach</string>
-			<key>timeStartedRecording</key>
-			<real>626598478.13682997</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Test hiraganacoach</string>
-			<key>uniqueIdentifier</key>
-			<string>7925A967-44E1-43D1-82B1-0A13775D69AD</string>
-		</dict>
-		<key>85F9DCF7-19FB-4074-89C7-3AB15472048E</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>EEC471DD-3593-49C7-BFD2-EA4394DE8217</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.unit.cocoaUnitTest</string>
-			<key>fileName</key>
-			<string>Test-hiraganacoach-2020.11.08_23-09-20--0800.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>hiraganacoach project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>hiraganacoach</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Test hiraganacoach</string>
-			<key>timeStartedRecording</key>
-			<real>626598560.50269902</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Test hiraganacoach</string>
-			<key>uniqueIdentifier</key>
-			<string>85F9DCF7-19FB-4074-89C7-3AB15472048E</string>
-		</dict>
-		<key>8AB15EEE-8D4C-452D-92D9-B4E77D2048C5</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>2BD526DB-2618-46F1-ADA5-FE77C267DC57</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.unit.cocoaUnitTest</string>
-			<key>fileName</key>
-			<string>Test-hiraganacoach-2020.11.08_23-15-42--0800.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>hiraganacoach project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>hiraganacoach</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Test hiraganacoach</string>
-			<key>timeStartedRecording</key>
-			<real>626598942.63689196</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Test hiraganacoach</string>
-			<key>uniqueIdentifier</key>
-			<string>8AB15EEE-8D4C-452D-92D9-B4E77D2048C5</string>
-		</dict>
-		<key>8B0885BE-C213-48BB-8004-BBE6620AE87C</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>E6C018C6-87E0-4A38-87D0-12A6D0E84D0E</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.unit.cocoaUnitTest</string>
-			<key>fileName</key>
-			<string>Test-hiraganacoach-2020.11.08_23-00-27--0800.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>hiraganacoach project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>hiraganacoach</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Test hiraganacoach</string>
-			<key>timeStartedRecording</key>
-			<real>626598027.04975605</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Test hiraganacoach</string>
-			<key>uniqueIdentifier</key>
-			<string>8B0885BE-C213-48BB-8004-BBE6620AE87C</string>
-		</dict>
-		<key>CF255FA9-ADCF-4842-88FB-95767E2A1176</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>3120CDCF-7561-4054-BFE3-5EA65F18F911</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.unit.cocoaUnitTest</string>
-			<key>fileName</key>
-			<string>Test-hiraganacoach-2020.11.08_23-19-10--0800.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>hiraganacoach project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>hiraganacoach</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Test hiraganacoach</string>
-			<key>timeStartedRecording</key>
-			<real>626599150.981457</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Test hiraganacoach</string>
-			<key>uniqueIdentifier</key>
-			<string>CF255FA9-ADCF-4842-88FB-95767E2A1176</string>
-		</dict>
-		<key>ECCF355E-EDEF-4094-A10F-033F74390227</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>FD0D7DFF-3563-4E2E-BDD1-360B3C31467A</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.unit.cocoaUnitTest</string>
-			<key>fileName</key>
-			<string>Test-hiraganacoach-2020.11.08_22-54-08--0800.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>hiraganacoach project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>hiraganacoach</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Test hiraganacoach</string>
-			<key>timeStartedRecording</key>
-			<real>626597648.44046998</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Test hiraganacoach</string>
-			<key>uniqueIdentifier</key>
-			<string>ECCF355E-EDEF-4094-A10F-033F74390227</string>
-		</dict>
-		<key>F83DC6D2-3D20-4259-BA53-1F0FAF9B6272</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>CE4E3F1B-9E89-48A1-989B-EC98328396F6</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.unit.cocoaUnitTest</string>
-			<key>fileName</key>
-			<string>Test-hiraganacoach-2020.11.08_23-14-55--0800.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>hiraganacoach project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>hiraganacoach</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Test hiraganacoach</string>
-			<key>timeStartedRecording</key>
-			<real>626598895.60536098</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Test hiraganacoach</string>
-			<key>uniqueIdentifier</key>
-			<string>F83DC6D2-3D20-4259-BA53-1F0FAF9B6272</string>
-		</dict>
-		<key>FA8038E0-29B8-47F1-97AA-FCA7AD54E7ED</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>E6F2DF4C-4F02-4471-8E58-DA4DB81070C8</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.unit.cocoaUnitTest</string>
-			<key>fileName</key>
-			<string>Test-hiraganacoach-2020.11.08_22-27-41--0800.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>hiraganacoach project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>hiraganacoach</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Test hiraganacoach</string>
-			<key>timeStartedRecording</key>
-			<real>626596061.47315598</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Test hiraganacoach</string>
-			<key>uniqueIdentifier</key>
-			<string>FA8038E0-29B8-47F1-97AA-FCA7AD54E7ED</string>
-		</dict>
-		<key>FE573FEC-9180-45A0-B7F6-C75210D11911</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>7F16A346-511D-496C-A7A3-22C2CD0A3F36</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.unit.cocoaUnitTest</string>
-			<key>fileName</key>
-			<string>Test-hiraganacoach-2020.11.08_22-30-16--0800.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>hiraganacoach project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>hiraganacoach</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Test hiraganacoach</string>
-			<key>timeStartedRecording</key>
-			<real>626596216.17859805</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Test hiraganacoach</string>
-			<key>uniqueIdentifier</key>
-			<string>FE573FEC-9180-45A0-B7F6-C75210D11911</string>
+			<string>FCA5B6CB-3F09-4680-B78A-40D048462C68</string>
 		</dict>
 	</dict>
 </dict>

@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>087EC09D-2EB8-46A2-AB94-538616EB17F4</key>
+		<key>0F5EB063-E6DB-4F94-BDC5-72E83B13D2BB</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>087EC09D-2EB8-46A2-AB94-538616EB17F4.xcactivitylog</string>
+			<string>0F5EB063-E6DB-4F94-BDC5-72E83B13D2BB.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -23,24 +23,18 @@
 				<key>highLevelStatus</key>
 				<string>S</string>
 			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>hiraganacoach project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>hiraganacoach</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
 			<key>signature</key>
 			<string>Run hiraganacoach</string>
 			<key>timeStartedRecording</key>
-			<real>626598592.21908402</real>
+			<real>626648151.25889504</real>
 			<key>timeStoppedRecording</key>
-			<real>626598601.29959702</real>
+			<real>626648155.26031601</real>
 			<key>title</key>
 			<string>Run hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>087EC09D-2EB8-46A2-AB94-538616EB17F4</string>
+			<string>0F5EB063-E6DB-4F94-BDC5-72E83B13D2BB</string>
 		</dict>
-		<key>0DA0BF72-080C-458F-A3C1-428A8FD7C887</key>
+		<key>101117DF-EAAE-4EDB-A2D1-67A658FB1A70</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -49,7 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>0DA0BF72-080C-458F-A3C1-428A8FD7C887.xcactivitylog</string>
+			<string>101117DF-EAAE-4EDB-A2D1-67A658FB1A70.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -57,24 +51,18 @@
 				<key>highLevelStatus</key>
 				<string>S</string>
 			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>hiraganacoach project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>hiraganacoach</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
 			<key>signature</key>
 			<string>Run hiraganacoach</string>
 			<key>timeStartedRecording</key>
-			<real>626512975.52381098</real>
+			<real>626648160.37858498</real>
 			<key>timeStoppedRecording</key>
-			<real>626513018.70153999</real>
+			<real>626648164.49465203</real>
 			<key>title</key>
 			<string>Run hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>0DA0BF72-080C-458F-A3C1-428A8FD7C887</string>
+			<string>101117DF-EAAE-4EDB-A2D1-67A658FB1A70</string>
 		</dict>
-		<key>1067AD9B-C4AD-411F-A746-6027135EB245</key>
+		<key>1F5B8FE0-F551-4CA6-8040-5A71831D3431</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -83,7 +71,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>1067AD9B-C4AD-411F-A746-6027135EB245.xcactivitylog</string>
+			<string>1F5B8FE0-F551-4CA6-8040-5A71831D3431.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -94,15 +82,15 @@
 			<key>signature</key>
 			<string>Run hiraganacoach</string>
 			<key>timeStartedRecording</key>
-			<real>626599346.55143404</real>
+			<real>626648164.99327695</real>
 			<key>timeStoppedRecording</key>
-			<real>626599349.46540105</real>
+			<real>626648169.30170298</real>
 			<key>title</key>
 			<string>Run hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>1067AD9B-C4AD-411F-A746-6027135EB245</string>
+			<string>1F5B8FE0-F551-4CA6-8040-5A71831D3431</string>
 		</dict>
-		<key>3B43AB87-8CDA-44DE-8362-62CFE2D201D9</key>
+		<key>343963FA-2E99-497F-B747-587B96DEBBA0</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -111,7 +99,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>3B43AB87-8CDA-44DE-8362-62CFE2D201D9.xcactivitylog</string>
+			<string>343963FA-2E99-497F-B747-587B96DEBBA0.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -122,15 +110,15 @@
 			<key>signature</key>
 			<string>Run hiraganacoach</string>
 			<key>timeStartedRecording</key>
-			<real>626599332.47039795</real>
+			<real>626648136.97158802</real>
 			<key>timeStoppedRecording</key>
-			<real>626599336.77304995</real>
+			<real>626648141.43034995</real>
 			<key>title</key>
 			<string>Run hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>3B43AB87-8CDA-44DE-8362-62CFE2D201D9</string>
+			<string>343963FA-2E99-497F-B747-587B96DEBBA0</string>
 		</dict>
-		<key>55B0479E-00F9-4762-892B-7073E7F883B8</key>
+		<key>57B8558C-4A2C-4091-9DC0-57C4DA3CFD4C</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -139,41 +127,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>55B0479E-00F9-4762-892B-7073E7F883B8.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>hiraganacoach project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>hiraganacoach</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run hiraganacoach</string>
-			<key>timeStartedRecording</key>
-			<real>626598245.28621399</real>
-			<key>timeStoppedRecording</key>
-			<real>626598252.76450598</real>
-			<key>title</key>
-			<string>Run hiraganacoach</string>
-			<key>uniqueIdentifier</key>
-			<string>55B0479E-00F9-4762-892B-7073E7F883B8</string>
-		</dict>
-		<key>645506EA-B201-4659-9924-BAA4455B5683</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>645506EA-B201-4659-9924-BAA4455B5683.xcactivitylog</string>
+			<string>57B8558C-4A2C-4091-9DC0-57C4DA3CFD4C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -184,41 +138,13 @@
 			<key>signature</key>
 			<string>Run hiraganacoach</string>
 			<key>timeStartedRecording</key>
-			<real>626599341.96785498</real>
+			<real>626648155.77733099</real>
 			<key>timeStoppedRecording</key>
-			<real>626599346.04873204</real>
+			<real>626648159.93980503</real>
 			<key>title</key>
 			<string>Run hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>645506EA-B201-4659-9924-BAA4455B5683</string>
-		</dict>
-		<key>649F7ACD-B75B-46DF-8312-B8B02B68F99D</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>649F7ACD-B75B-46DF-8312-B8B02B68F99D.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>Run hiraganacoach</string>
-			<key>timeStartedRecording</key>
-			<real>626599327.44396996</real>
-			<key>timeStoppedRecording</key>
-			<real>626599331.93536305</real>
-			<key>title</key>
-			<string>Run hiraganacoach</string>
-			<key>uniqueIdentifier</key>
-			<string>649F7ACD-B75B-46DF-8312-B8B02B68F99D</string>
+			<string>57B8558C-4A2C-4091-9DC0-57C4DA3CFD4C</string>
 		</dict>
 		<key>8BC46295-A9C1-4BCE-9ACF-AB3ED482D775</key>
 		<dict>
@@ -254,7 +180,7 @@
 			<key>uniqueIdentifier</key>
 			<string>8BC46295-A9C1-4BCE-9ACF-AB3ED482D775</string>
 		</dict>
-		<key>DFB096CF-45BD-496D-9FF2-7DD719B6E285</key>
+		<key>AA105885-656F-4217-9E14-0C56C86FDF39</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -263,7 +189,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>DFB096CF-45BD-496D-9FF2-7DD719B6E285.xcactivitylog</string>
+			<string>AA105885-656F-4217-9E14-0C56C86FDF39.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -274,15 +200,15 @@
 			<key>signature</key>
 			<string>Run hiraganacoach</string>
 			<key>timeStartedRecording</key>
-			<real>626599337.35132205</real>
+			<real>626648141.92505002</real>
 			<key>timeStoppedRecording</key>
-			<real>626599341.44420004</real>
+			<real>626648146.20094705</real>
 			<key>title</key>
 			<string>Run hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>DFB096CF-45BD-496D-9FF2-7DD719B6E285</string>
+			<string>AA105885-656F-4217-9E14-0C56C86FDF39</string>
 		</dict>
-		<key>ED0D9ED7-8E4B-4A94-AFDD-B5ECD2A7A64F</key>
+		<key>CEB89E5E-4701-43A3-B27B-41BD1BD6BF49</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -291,7 +217,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>ED0D9ED7-8E4B-4A94-AFDD-B5ECD2A7A64F.xcactivitylog</string>
+			<string>CEB89E5E-4701-43A3-B27B-41BD1BD6BF49.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -299,22 +225,16 @@
 				<key>highLevelStatus</key>
 				<string>S</string>
 			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>hiraganacoach project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>hiraganacoach</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
 			<key>signature</key>
 			<string>Run hiraganacoach</string>
 			<key>timeStartedRecording</key>
-			<real>626598201.34923398</real>
+			<real>626648146.72572899</real>
 			<key>timeStoppedRecording</key>
-			<real>626598201.48874104</real>
+			<real>626648150.80662298</real>
 			<key>title</key>
 			<string>Run hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>ED0D9ED7-8E4B-4A94-AFDD-B5ECD2A7A64F</string>
+			<string>CEB89E5E-4701-43A3-B27B-41BD1BD6BF49</string>
 		</dict>
 	</dict>
 </dict>
