@@ -1,0 +1,18 @@
+[
+    {
+        "label" : "Dojo",
+        "category_label" : "a",
+        "id" : "dojo",
+        "assessmentType" : "dojo",
+        "categories" : []
+    },
+    {
+        "label" : "Vowels",
+        "category_label" : "a",
+        "id" : "vowels",
+        "assessmentType" : "practice",
+        "categories" : [
+            "vowels"
+        ]
+    }
+]

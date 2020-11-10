@@ -12,13 +12,13 @@ import CoreData
 class ApplicationDataInterfaceTests : XCTestCase
 {
     var coreDataManager : TestCoreDataManager!
-    var applicationDataInterface : ApplicationDataInterface!
+    var applicationDataInterface : CoreDataInterface!
     
     override func setUp()
     {
         super.setUp()
         coreDataManager = TestCoreDataManager()
-        applicationDataInterface = ApplicationDataInterface(cdm: coreDataManager, vc: coreDataManager.mainContext)
+        applicationDataInterface = CoreDataInterface(cdm: coreDataManager, vc: coreDataManager.mainContext)
     }
     
     override func tearDown()

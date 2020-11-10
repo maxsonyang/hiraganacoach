@@ -8,7 +8,7 @@
 import Foundation
 import CoreData
 
-public final class ApplicationDataInterface
+public final class CoreDataInterface
 {
     
     let coreDataManager : RevisedCoreDataManager
@@ -22,7 +22,7 @@ public final class ApplicationDataInterface
     
 }
 
-extension ApplicationDataInterface
+extension CoreDataInterface
 {
     /*
         MARK: Character Record Methods
@@ -113,7 +113,7 @@ extension ApplicationDataInterface
     }
 }
 
-extension ApplicationDataInterface
+extension CoreDataInterface
 {
     /*
         MARK: Assessment Metadata Methods
@@ -192,7 +192,7 @@ extension ApplicationDataInterface
     }
 }
 
-extension ApplicationDataInterface
+extension CoreDataInterface
 {
     /*
         MARK: Fetch Requests and Predicates

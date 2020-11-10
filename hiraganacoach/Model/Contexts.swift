@@ -7,17 +7,17 @@
 
 import Foundation
 
-struct AssessmentContext : Identifiable, Codable
+public struct AssessmentContext : Identifiable, Codable
 {
     /*
         Class used to define how a view should be generated to adhere
         to the flyweight design pattern.
      */
-    let label : String
-    let category_label : String
-    let id : String
-    let assessmentType : String
-    let categories : [String]
+    public let label : String
+    public let category_label : String
+    public let id : String
+    public let assessmentType : String
+    public let categories : [String]
     
     init(label: String, category_label : String,
          id : String, assessmentType : String, categories : [String])
@@ -31,11 +31,11 @@ struct AssessmentContext : Identifiable, Codable
     
 }
 
-class LanguageContext : Identifiable, Codable
+public class LanguageContext : Identifiable, Codable
 {
-    let id : String
-    let label : String
-    let family : String
+    public let id : String
+    public let label : String
+    public let family : String
     
     init(id : String, label : String, family : String)
     {
