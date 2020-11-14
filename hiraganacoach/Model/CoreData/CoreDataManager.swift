@@ -314,7 +314,7 @@ class CoreDataManager {
     }
 }
 
-class RevisedCoreDataManager
+public class RevisedCoreDataManager
 {
     public static let modelName = "hiraganacoach"
     

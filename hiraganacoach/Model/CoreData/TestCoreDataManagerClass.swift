@@ -6,7 +6,7 @@
 //
 
 import CoreData
-@testable import hiraganacoach
+//@testable import hiraganacoach
 
 class TestCoreDataManager : RevisedCoreDataManager {
     

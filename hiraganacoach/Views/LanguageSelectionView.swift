@@ -17,20 +17,19 @@ struct LanguageSelectionView: View
         UINavigationBar.appearance().barTintColor = UIColor.deepBlue
     }
     
-    @State var languageContexts : [LanguageContext] = [
+    @State var availableLanguages : [LanguageContext] = [
         LanguageContext(id: "hiragana", label: "Hiragana", family: "Japanese"),
-        LanguageContext(id: "korean", label: "Korean", family: "Korean"),
-        LanguageContext(id: "katakana", label: "Katakana", family: "Japanese")
+        LanguageContext(id: "katakana", label: "Katakana", family: "Japanese"),
+        LanguageContext(id: "bopomofo", label: "Zhuyin", family: "Chinese"),
+        LanguageContext(id: "korean", label: "Korean", family: "Korean")
     ]
     
     var body: some View {
         NavigationView {
             Form {
                 Section {
-                    List(languageContexts) { context in
-                        LanguageRow(context: context)
-                            .frame(height: 40)
-
+                    List(availableLanguages) { context in
+                        LanguageRow(languageContext: context)
                     }
                 }
             }
@@ -48,19 +47,19 @@ struct LanguageSelectionView: View
 
 struct LanguageRow : View
 {
-    var context : LanguageContext
+    let languageContext : LanguageContext
     
-    init(context : LanguageContext)
+    init(languageContext : LanguageContext)
     {
-        self.context = context
+        self.languageContext = languageContext
     }
     
     var body: some View
     {
         NavigationLink(
-            destination: AssessmentsView(languageContext: context),
+            destination: AssessmentsView(languageContext: languageContext),
             label: {
-                Text(context.label)
+                Text(languageContext.label)
                     .font(.system(size: 28.0))
                     .foregroundColor(Color.deepBlue)
             })
@@ -69,6 +68,8 @@ struct LanguageRow : View
 
 struct LanguageSelectionView_Previews: PreviewProvider {
     static var previews: some View {
-        LanguageSelectionView()
+        LanguageSelectionView().previewDevice("iPhone 8 Plus")
+        LanguageSelectionView().previewDevice("iPhone 11 Pro Max")
+        LanguageSelectionView().previewDevice("iPhone XR")
     }
 }

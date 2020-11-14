@@ -1,0 +1,12 @@
+{
+    "consonants 1" : ["bo", "po", "mo", "fo"],
+    "consonants 2" : ["de", "te", "ne", "le"],
+    "consonants 3" : ["ge", "ke", "he"],
+    "consonants 4" : ["ji", "qi", "xi"],
+    "consonants 5" : ["zhi", "chi", "shi"],
+    "consonants 6" : ["ri", "zi", "ci", "si"],
+    "vowels 1" : ["a", "o", "e", "eh"],
+    "vowels 2" : ["ai", "ei", "ao", "ou"],
+    "vowels 3" : ["an", "en", "ang", "eng", "er"],
+    "vowels 4" : ["y", "u", "yu"]
+}

@@ -1,0 +1,99 @@
+[
+    {
+        "label" : "Dojo",
+        "category_label" : "ㄅ",
+        "id" : "dojo",
+        "assessmentType" : "dojo",
+        "categories" : []
+    },
+    {
+        "label" : "Consonants 1",
+        "category_label" : "ㄅ",
+        "id" : "consonants 1",
+        "assessmentType" : "practice",
+        "categories" : [
+            "consonants 1"
+        ]
+    },
+    {
+        "label" : "Consonants 2",
+        "category_label" : "ㄉ",
+        "id" : "consonants 2",
+        "assessmentType" : "practice",
+        "categories" : [
+            "consonants 2"
+        ]
+    },
+    {
+        "label" : "Consonants 3",
+        "category_label" : "ㄍ",
+        "id" : "consonants 3",
+        "assessmentType" : "practice",
+        "categories" : [
+            "consonants 3"
+        ]
+    },
+    {
+        "label" : "Consonants 4",
+        "category_label" : "ㄐ",
+        "id" : "consonants 4",
+        "assessmentType" : "practice",
+        "categories" : [
+            "consonants 4"
+        ]
+    },
+    {
+        "label" : "Consonants 5",
+        "category_label" : "ㄓ",
+        "id" : "consonants 5",
+        "assessmentType" : "practice",
+        "categories" : [
+            "consonants 5"
+        ]
+    },
+    {
+        "label" : "Consonants 6",
+        "category_label" : "ㄖ",
+        "id" : "consonants 6",
+        "assessmentType" : "practice",
+        "categories" : [
+            "consonants 6"
+        ]
+    },
+    {
+        "label" : "Vowels 1",
+        "category_label" : "ㄚ",
+        "id" : "vowels 1",
+        "assessmentType" : "practice",
+        "categories" : [
+            "vowels 1"
+        ]
+    },
+    {
+        "label" : "Vowels 2",
+        "category_label" : "ㄞ",
+        "id" : "vowels 2",
+        "assessmentType" : "practice",
+        "categories" : [
+            "vowels 2"
+        ]
+    },
+    {
+        "label" : "Vowels 3",
+        "category_label" : "ㄢ",
+        "id" : "vowels 3",
+        "assessmentType" : "practice",
+        "categories" : [
+            "vowels 3"
+        ]
+    },
+    {
+        "label" : "Vowels 4",
+        "category_label" : "ㄧ",
+        "id" : "vowels 4",
+        "assessmentType" : "practice",
+        "categories" : [
+            "vowels 4"
+        ]
+    },
+]

@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct SettingsView: View {
+    
+    let coreDataInterface = BaseController.coreDataInterface
+    
     var body: some View {
         Form {
-            Section(header: Text("Personal Performance")) {
+            Section(header: Text("Personal Performance")
+                        .foregroundColor(.white)) {
                 Button("Delete all assessments", action: {
-                    CoreDataManager().deleteAllAssessmentMetadata()
+                    coreDataInterface.deleteAllAssessmentMetadata()
                 }).foregroundColor(.deepBlue)
                 Button("Delete all performance", action: {
-                    CoreDataManager().deleteAllCharacterRecords()
+                    coreDataInterface.deleteAllCharacterRecords()
+                    coreDataInterface.deleteAllLanguageMetadata()
+                }).foregroundColor(.deepBlue)
+                Button("Hard Reset", action: {
+                    coreDataInterface.hardReset()
                 }).foregroundColor(.deepBlue)
             }
         }

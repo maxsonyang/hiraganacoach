@@ -7,12 +7,11 @@
 
 import Foundation
 
-class Performance
+public class Performance
 {
+    public var character_performance : [String : [String : Int]] = [:]
     
-    var character_performance : [String : [String : Int]] = [:]
-    
-    func initialize_mapping(characters : [String])
+    public  func initialize_mapping(characters : [String])
     {
         var temp_dict : [String : [String : Int]] = [:]
         for character in characters
@@ -25,7 +24,7 @@ class Performance
         self.character_performance = temp_dict
     }
     
-    func updateCharacterPerformance(character : String, correct : Bool)
+    public func updateCharacterPerformance(character : String, correct : Bool)
     {
         if correct {
             character_performance[character]!["streak"]! += 1
@@ -36,7 +35,7 @@ class Performance
         character_performance[character]!["attempts"]! += 1
     }
     
-    func masteryAchieved() -> Bool
+    public func masteryAchieved() -> Bool
     {
         for character in character_performance.keys
         {

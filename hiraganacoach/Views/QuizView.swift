@@ -18,15 +18,19 @@ struct QuizView: View {
     @State var displayedText : String = ""
     @State var character : String = ""
     @State var answer : String = ""
+    @State var sectionMastered : Bool = false
+    @State var streakBroken : Bool = false
+    @State var globalStreakBroken : Bool = false
     
-    var assessmentContext : AssessmentContext
+    var quizController : QuizController
     var languageContext : LanguageContext
-    var assessment : Assessment = ASSESSMENT
+    var assessmentContext : AssessmentContext?
     
     init(assessmentContext : AssessmentContext, languageContext : LanguageContext)
     {
         self.assessmentContext = assessmentContext
         self.languageContext = languageContext
+        quizController = QuizController(assessmentContext: assessmentContext, languageContext: languageContext)
     }
     
     var body: some View {
@@ -36,11 +40,20 @@ struct QuizView: View {
                 .ignoresSafeArea()
             
             VStack {
+                HStack {
+                    Text(assessmentContext!.label)
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundColor(.white)
+                    Image(systemName: "star.fill")
+                            .font(.system(size: 18.0))
+                            .foregroundColor(sectionMastered ? .starYellow : .rainyBlue)
+                    
+                }
+                Spacer().frame(height: 10)
                 Text("Identify the Character")
-                    .fontWeight(.bold)
-                    .font(.system(size: 24.0))
+                    .font(.title2)
                     .foregroundColor(.white)
-                
                 HStack {
                     ScoreCardView(text: "Score: \(score)", bg_color: Color.mellowLime)
                     ScoreCardView(text: "Streak: \(streak)", bg_color: Color.peachyOrange)
@@ -90,22 +103,66 @@ struct QuizView: View {
                             displayAnswer = false
                             score += 1
                             streak += 1
+                            if streak > Int(quizController.languageMetadata!.highestStreak) && !globalStreakBroken
+                            {
+                                Banners.getGlobalStreakRecordBanner(section: "").show()
+                                globalStreakBroken = true
+                            }
+                            else if streak > Int(quizController.assessmentMetadata!.highestStreak) && !streakBroken
+                            {
+                                Banners.getLocalStreakRecordBanner(section: quizController.assessmentContext.label).show(
+                                    bannerPosition: .top,
+                                    cornerRadius: 8,
+                                    shadowColor: UIColor(red: 0.431, green: 0.459, blue: 0.494, alpha: 1),
+                                    shadowBlurRadius: 16,
+                                    shadowEdgeInsets: UIEdgeInsets(top: 8, left: 8, bottom: 0, right: 8)
+                                )
+                                streakBroken = true
+                            }
+                            switch quizController.languageMetadata?.totalScore
+                            {
+                                case 50:
+                                    Banners.getScoreAchievementBanner(score: 50).show()
+                                    break
+                                case 100:
+                                    Banners.getScoreAchievementBanner(score: 100).show()
+                                    break
+                                case 200:
+                                    Banners.getScoreAchievementBanner(score: 200).show()
+                                    break
+                                case 500:
+                                    Banners.getScoreAchievementBanner(score: 500).show()
+                                    break
+                                case 1000:
+                                    Banners.getScoreAchievementBanner(score: 1000).show()
+                                    break
+                                case 2000:
+                                    Banners.getScoreAchievementBanner(score: 2000).show()
+                                    break
+                                case 4000:
+                                    Banners.getScoreAchievementBanner(score: 4000).show()
+                                    break
+                                default:
+                                    break
+                            }
+                            quizController.updatePerformance(answer: answer, guess: guess.lowercased(), correct: true, streak: streak)
                             guess = ""
-                            assessment.updatePerformance(character: answer, answer: guess, correct: true)
                             // This must always be at the end!!!
                             updateCharacter()
-                            if assessment.mastered() && !assessment.previouslyMastered()
+                            if (quizController.mastered()) && !(quizController.previouslyMastered())
                             {
-                                assessment.updateMastery()
-                                let banner = FloatingNotificationBanner(title: "Great work!", subtitle: "You're ready to move on to the next topic!", style: .success)
-                                banner.show()
+                                if !(assessmentContext?.assessmentType == "dojo")
+                                {
+                                    quizController.updateMastery()
+                                    sectionMastered = true
+                                    let banner = Banners.getMasteredBanner()
+                                    banner.show()
+                                }
                             }
                         } else {
-//                            let mistaken_character = characterMapping[guess]
-//                            if mistaken_character != nil {
-                            if assessment.characters.contains(guess) {
+                            if quizController.validGuess(guess: guess) {
                                 streak = 0
-                                assessment.updatePerformance(character: answer, answer: guess, correct: false)
+                                quizController.updatePerformance(answer: answer, guess: guess.lowercased(), correct: false, streak: streak)
                             }
                         }
                     }, label: {
@@ -121,8 +178,8 @@ struct QuizView: View {
             }
             .onAppear() {
                 initializeContext()
-            }.onDisappear() {
-                updateHighestStreak()
+                let assessmentHS = quizController.assessmentMetadata!.highestStreak
+                streakBroken = assessmentHS == 0
             }
         }
     }
@@ -135,62 +192,21 @@ struct QuizView: View {
             return character
         }
     }
-    
-    func getNewCharacter() -> String
-    {
-        return assessment.getNextCharacter(answer: answer)
-    }
 
     func updateCharacter()
     {
-        let new_character = getNewCharacter()
+        let new_character = quizController.getNewCharacter(answer: answer)
         answer = new_character
-        character = characterMapping[answer]!
+        character = quizController.getValueForCharacter(character: answer)
         displayedText = getCardText()
     }
     
     func initializeContext()
     {
-        assessment.initialize(assessmentContext: self.assessmentContext, languageContext: self.languageContext)
+        quizController.initializeController()
         updateCharacter()
         displayedText = character
-    }
-    
-    func updateHighestStreak()
-    {
-        let manager = CoreDataManager()
-        let fetchedMetadata = manager.fetchAssessmentMetadata(id: assessmentContext.id, assessmentType: assessmentContext.assessmentType, language: languageContext.id)
-        if fetchedMetadata.count > 0
-        {
-            let metadata = fetchedMetadata[0]
-            print(metadata)
-            if metadata.highestStreak < streak {
-                print("hello")
-                metadata.setValue(streak, forKey: "highestStreak")
-                manager.saveContext()
-            }
-        }
-    }
-}
-
-func fetchCharacters(categories : [String]) -> [String]
-{
-    var results : [String] = []
-    for category in categories
-    {
-        print(category)
-        let characters = character_categories[category]!
-        for character in characters
-        {
-            results.append(character)
-        }
-    }
-    return results
-}
-
-struct QuizView_Previews: PreviewProvider {
-    static var previews: some View {
-        QuizView(assessmentContext: AssessmentContext(label: "Vowels", category_label: "vowels", id: "vowels", assessmentType: "practice", categories: ["vowels"]), languageContext: LanguageContext(id: "hiragana", label: "Hiragana", family: "Japanese"))
+        sectionMastered = quizController.previouslyMastered()
     }
 }
 

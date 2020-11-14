@@ -15,6 +15,7 @@ extension Color {
     static let rainyBlue = Color(#colorLiteral(red: 0.4277914464, green: 0.7824732065, blue: 0.8741762638, alpha: 1))
     static let peachyOrange = Color(#colorLiteral(red: 1, green: 0.557608068, blue: 0.5242036581, alpha: 1))
     static let mellowLime = Color(#colorLiteral(red: 0.3588996828, green: 0.8410599232, blue: 0.4271276593, alpha: 1))
+    static let starYellow = Color(#colorLiteral(red: 1, green: 0.9110526443, blue: 0.3140003979, alpha: 1))
 }
 
 extension UIColor {
@@ -24,4 +25,5 @@ extension UIColor {
     static let rainyBlue = UIColor(cgColor: #colorLiteral(red: 0.4277914464, green: 0.7824732065, blue: 0.8741762638, alpha: 1))
     static let peachyOrange = UIColor(cgColor: #colorLiteral(red: 1, green: 0.557608068, blue: 0.5242036581, alpha: 1))
     static let mellowLime = UIColor(cgColor: #colorLiteral(red: 0.3588996828, green: 0.8410599232, blue: 0.4271276593, alpha: 1))
+    static let starYellow = UIColor(cgColor: #colorLiteral(red: 1, green: 0.9110526443, blue: 0.3140003979, alpha: 1))
 }

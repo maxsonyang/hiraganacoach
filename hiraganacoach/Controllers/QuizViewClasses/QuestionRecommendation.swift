@@ -8,16 +8,14 @@
 import Foundation
 import CoreData
 
-class AccuracyTable {
+public class AccuracyTable {
     
-    var coredata_manager : CoreDataManager = CoreDataManager()
     var record_mapping : [String : CharacterRecord] = [:]
     var languageContext : LanguageContext?
     
-    func initialize(characters : [String], languageContext: LanguageContext)
+    func initialize(characters : [String], recordMapping: [String : CharacterRecord])
     {
-        self.languageContext = languageContext
-        record_mapping = coredata_manager.getCharacterRecordMappings(characters: characters, language: languageContext.id)
+        record_mapping = recordMapping
     }
     
     func updateAccuracy(character : String, answer : String, correct : Bool)
@@ -57,7 +55,7 @@ class AccuracyTable {
         
         confusion_index[answer] = answer_index
         character_record.confusion_index = confusion_index as NSObject
-        coredata_manager.saveContext()
+        BaseController.coreDataInterface.update(character_record)
     }
     
     func getCorrectAttempts(character : String) -> Int

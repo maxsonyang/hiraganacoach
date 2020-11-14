@@ -67,7 +67,7 @@ class CharacterRecordTests: ApplicationDataInterfaceTests
     {
         let created_record = applicationDataInterface.createCharacterRecord(character: "a", language: "English")
         
-        let record = applicationDataInterface.getCharacterRecord(character: "a", language: "English")
+        let record = applicationDataInterface.getCharacterRecord(character: "a", language: "English")!
         
         XCTAssertTrue(created_record === record)
         XCTAssertEqual(record.character, "a")
@@ -92,14 +92,14 @@ class CharacterRecordTests: ApplicationDataInterfaceTests
     {
         applicationDataInterface.createCharacterRecord(character: "a", language: "English")
         
-        var record = applicationDataInterface.getCharacterRecord(character: "a", language: "English")
+        var record = applicationDataInterface.getCharacterRecord(character: "a", language: "English")!
         
         record.attempts += 1
         record.correct += 1
         
         applicationDataInterface.update(record)
         
-        record = applicationDataInterface.getCharacterRecord(character: "a", language: "English")
+        record = applicationDataInterface.getCharacterRecord(character: "a", language: "English")!
         
         XCTAssertEqual(record.character, "a")
         XCTAssertEqual(record.language, "English")
@@ -115,7 +115,7 @@ class CharacterRecordTests: ApplicationDataInterfaceTests
     {
         applicationDataInterface.createCharacterRecord(character: "a", language: "English")
         
-        var record = applicationDataInterface.getCharacterRecord(character: "a", language: "English")
+        var record = applicationDataInterface.getCharacterRecord(character: "a", language: "English")!
 
         record.attempts += 1
 
@@ -125,7 +125,7 @@ class CharacterRecordTests: ApplicationDataInterfaceTests
 
         applicationDataInterface.update(record)
 
-        record = applicationDataInterface.getCharacterRecord(character: "a", language: "English")
+        record = applicationDataInterface.getCharacterRecord(character: "a", language: "English")!
 
         XCTAssertEqual(record.character, "a")
         XCTAssertEqual(record.language, "English")
@@ -182,7 +182,7 @@ class AssessmentMetadataTests : ApplicationDataInterfaceTests
     func testGetAssessmentMetadata()
     {
         applicationDataInterface.createAssessmentMetadata(id: "test", language: "English", assessmentType: "test")
-        let metadata = applicationDataInterface.getAssessmentMetadata(id: "test", language: "English", assessmentType: "test")
+        let metadata = applicationDataInterface.getAssessmentMetadata(id: "test", language: "English", assessmentType: "test")!
         
         XCTAssertEqual(metadata.id, "test")
         XCTAssertEqual(metadata.language, "English")
@@ -199,7 +199,7 @@ class AssessmentMetadataTests : ApplicationDataInterfaceTests
         
         applicationDataInterface.update(metadata: metadata)
         
-        metadata = applicationDataInterface.getAssessmentMetadata(id: "test", language: "English", assessmentType: "test")
+        metadata = applicationDataInterface.getAssessmentMetadata(id: "test", language: "English", assessmentType: "test")!
         XCTAssertEqual(metadata.id, "test")
         XCTAssertEqual(metadata.language, "English")
         XCTAssertEqual(metadata.assessmentType, "test")
@@ -218,6 +218,84 @@ class AssessmentMetadataTests : ApplicationDataInterfaceTests
         
         applicationDataInterface.delete(metadata: metadata)
         exists = applicationDataInterface.assessmentMetadataExists(id: "test", language: "English", assessmentType: "test")
+        XCTAssertFalse(exists)
+    }
+}
+
+extension ApplicationDataInterfaceTests
+{
+    
+    func testCreateLanguageMetadata()
+    {
+        let languageMetadata : LanguageMetadata = applicationDataInterface.createLanguageMetadata(language: "English")
+        
+        XCTAssertEqual(languageMetadata.highestStreak, 0)
+        XCTAssertEqual(languageMetadata.language, "English")
+        XCTAssertEqual(languageMetadata.masteredTopics, 0)
+        XCTAssertEqual(languageMetadata.totalScore, 0)
+    }
+    
+    func testCheckLanguageMetadataExists()
+    {
+        var exists = applicationDataInterface.languageMetadataExists(language: "Japanese")
+        XCTAssertFalse(exists)
+        
+        applicationDataInterface.createLanguageMetadata(language: "Japanese")
+        exists = applicationDataInterface.languageMetadataExists(language: "Japanese")
+        
+        XCTAssertTrue(exists)
+    }
+    
+    func testNoDuplicateMetadata()
+    {
+        let languageMetadata : LanguageMetadata = applicationDataInterface.createLanguageMetadata(language: "English")
+        let duplicate : LanguageMetadata = applicationDataInterface.createLanguageMetadata(language: "English")
+        
+        XCTAssertTrue(languageMetadata === duplicate)
+    }
+    
+    func testGetLanguageMetadata()
+    {
+        var languageMetadata : LanguageMetadata = applicationDataInterface.createLanguageMetadata(language: "English")
+        languageMetadata = applicationDataInterface.getLanguageMetadata(language: "English")!
+        
+        XCTAssertEqual(languageMetadata.highestStreak, 0)
+        XCTAssertEqual(languageMetadata.language, "English")
+        XCTAssertEqual(languageMetadata.masteredTopics, 0)
+        XCTAssertEqual(languageMetadata.totalScore, 0)
+    }
+    
+    func testUpdateLanguageMetadata()
+    {
+        var languageMetadata : LanguageMetadata = applicationDataInterface.createLanguageMetadata(language: "English")
+        
+        languageMetadata.highestStreak = 1
+        languageMetadata.language = "Boontling"
+        languageMetadata.masteredTopics = -1
+        languageMetadata.totalScore = 42
+        
+        applicationDataInterface.update(languageMetadata: languageMetadata)
+        
+        languageMetadata = applicationDataInterface.getLanguageMetadata(language: "Boontling")!
+        
+        XCTAssertEqual(languageMetadata.highestStreak, 1)
+        XCTAssertEqual(languageMetadata.language, "Boontling")
+        XCTAssertEqual(languageMetadata.masteredTopics, -1)
+        XCTAssertEqual(languageMetadata.totalScore, 42)
+    }
+    
+    func testDeleteLanguageMetadata()
+    {
+        var exists = applicationDataInterface.languageMetadataExists(language: "Japanese")
+        XCTAssertFalse(exists)
+        
+        let metadata = applicationDataInterface.createLanguageMetadata(language: "Japanese")
+        exists = applicationDataInterface.languageMetadataExists(language: "Japanese")
+        
+        XCTAssertTrue(exists)
+        
+        applicationDataInterface.delete(languageMetadata: metadata)
+        exists = applicationDataInterface.languageMetadataExists(language: "Japanese")
         XCTAssertFalse(exists)
     }
 }

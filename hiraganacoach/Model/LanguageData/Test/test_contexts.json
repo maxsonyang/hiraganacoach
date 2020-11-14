@@ -7,12 +7,12 @@
         "categories" : []
     },
     {
-        "label" : "Vowels",
+        "label" : "Test",
         "category_label" : "a",
-        "id" : "vowels",
+        "id" : "test",
         "assessmentType" : "practice",
         "categories" : [
-            "vowels"
+            "test"
         ]
     }
 ]

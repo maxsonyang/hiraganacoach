@@ -37,6 +37,7 @@ public final class JSONManager
     
     private func getJSONObjectArray(fileName : String) -> [AnyObject]?
     {
+        print(fileName)
         let data = getJSONData(fileName : fileName)!
         do {
             let result = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves) as? [AnyObject]
@@ -56,6 +57,14 @@ extension JSONManager
         precondition(results != nil, "No file found named \(fileName)")
         
         return results as? [String : String]
+    }
+    
+    public func getCategorySets(fileName: String) -> [String : [String]]?
+    {
+        let results = getJSONMapping(fileName: fileName)
+        precondition(results != nil, "No file found named \(fileName)")
+
+        return results as? [String : [String]]
     }
     
     public func getAssessmentContexts(fileName : String) -> [AssessmentContext]?

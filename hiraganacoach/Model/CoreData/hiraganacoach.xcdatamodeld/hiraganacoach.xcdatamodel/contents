@@ -14,8 +14,15 @@
         <attribute name="correct" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="language" optional="YES" attributeType="String"/>
     </entity>
+    <entity name="LanguageMetadata" representedClassName="LanguageMetadata" syncable="YES" codeGenerationType="class">
+        <attribute name="highestStreak" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="language" optional="YES" attributeType="String"/>
+        <attribute name="masteredTopics" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalScore" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
     <elements>
         <element name="AssessmentMetadata" positionX="-63" positionY="9" width="128" height="118"/>
         <element name="CharacterRecord" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="LanguageMetadata" positionX="-63" positionY="36" width="128" height="103"/>
     </elements>
 </model>

@@ -10,17 +10,16 @@ import SwiftUI
 
 struct Category : Identifiable, View {
     
-    
-    var assessmentContext : AssessmentContext
+    var id : String = ""
     var languageContext : LanguageContext
+    var assessmentContext : AssessmentContext
     var mastered : Bool
-    var id : String
     
-    init(assessmentContext : AssessmentContext, languageContext : LanguageContext, mastered : Bool) {
+    init(assessmentContext : AssessmentContext, languageContext: LanguageContext, mastered : Bool)
+    {
         self.assessmentContext = assessmentContext
-        self.languageContext = languageContext
         self.mastered = mastered
-        self.id = assessmentContext.id
+        self.languageContext = languageContext
     }
     
     var body : some View {
@@ -31,7 +30,7 @@ struct Category : Identifiable, View {
                     ZStack {
                         RoundedRectangle(cornerRadius: 10.0, style: .continuous)
                             .frame(width: 50, height: 50, alignment: .center)
-                            .foregroundColor(mastered ? .deepBlue : .rainyBlue)
+                            .foregroundColor(mastered ? .rainyBlue : .deepBlue)
 
                                 .background(Color.white)
                         Text(assessmentContext.category_label)
