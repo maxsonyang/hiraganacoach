@@ -117,6 +117,10 @@ extension QuizController
         if correct
         {
             incrementCategoryScore()
+            if (assessment?.mastered())!
+            {
+                updateMastery()
+            }
         }
         updateHighestStreak(streak: streak)
     }

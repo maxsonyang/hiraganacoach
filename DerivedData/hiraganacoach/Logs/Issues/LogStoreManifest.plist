@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>09ED0AEE-AFC8-45AF-9134-331219528073</key>
+		<key>062A28FC-2B12-4B04-A8A2-A0216B4823F1</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>09ED0AEE-AFC8-45AF-9134-331219528073.xcactivitylog</string>
+			<string>062A28FC-2B12-4B04-A8A2-A0216B4823F1.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,24 +26,24 @@
 			<key>signature</key>
 			<string>Pods-hiraganacoach-etmvkcrxotxcjgfjobpthzgqlult</string>
 			<key>timeStartedRecording</key>
-			<real>627019442.85101295</real>
+			<real>627096602.69608605</real>
 			<key>timeStoppedRecording</key>
-			<real>627019443.06272697</real>
+			<real>627096602.84183502</real>
 			<key>title</key>
 			<string>Build target Pods-hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>09ED0AEE-AFC8-45AF-9134-331219528073</string>
+			<string>062A28FC-2B12-4B04-A8A2-A0216B4823F1</string>
 		</dict>
-		<key>568C807A-2E32-4964-A4B4-59335261FD3C</key>
+		<key>2231F5DB-A568-4837-BFAA-39D63E910594</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
 			<key>documentTypeString</key>
 			<string>&lt;nil&gt;</string>
 			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>568C807A-2E32-4964-A4B4-59335261FD3C.xcactivitylog</string>
+			<string>2231F5DB-A568-4837-BFAA-39D63E910594.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -52,15 +52,43 @@
 				<string>S</string>
 			</dict>
 			<key>signature</key>
-			<string>hiraganacoach-hbasnrbizzvllcenaednrbnxjqep</string>
+			<string>MarqueeLabel-etmvkcrxotxcjgfjobpthzgqlult</string>
 			<key>timeStartedRecording</key>
-			<real>627083720.74999297</real>
+			<real>627096590.78589201</real>
 			<key>timeStoppedRecording</key>
-			<real>627083725.04202902</real>
+			<real>627096596.83618498</real>
 			<key>title</key>
-			<string>Build target hiraganacoach</string>
+			<string>Build target MarqueeLabel</string>
 			<key>uniqueIdentifier</key>
-			<string>568C807A-2E32-4964-A4B4-59335261FD3C</string>
+			<string>2231F5DB-A568-4837-BFAA-39D63E910594</string>
+		</dict>
+		<key>3102338F-E2B0-42A2-8186-215C797FED45</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>3102338F-E2B0-42A2-8186-215C797FED45.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>SnapKit-etmvkcrxotxcjgfjobpthzgqlult</string>
+			<key>timeStartedRecording</key>
+			<real>627096590.78648901</real>
+			<key>timeStoppedRecording</key>
+			<real>627096596.930637</real>
+			<key>title</key>
+			<string>Build target SnapKit</string>
+			<key>uniqueIdentifier</key>
+			<string>3102338F-E2B0-42A2-8186-215C797FED45</string>
 		</dict>
 		<key>620102B2-F4A7-40CB-9AF1-4BE3C28B914B</key>
 		<dict>
@@ -90,7 +118,7 @@
 			<key>uniqueIdentifier</key>
 			<string>620102B2-F4A7-40CB-9AF1-4BE3C28B914B</string>
 		</dict>
-		<key>68833894-F85F-451E-BD3D-23420FDD5193</key>
+		<key>66060E45-13C6-4EF6-83E0-5BE04F7226BE</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -99,7 +127,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>68833894-F85F-451E-BD3D-23420FDD5193.xcactivitylog</string>
+			<string>66060E45-13C6-4EF6-83E0-5BE04F7226BE.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -108,15 +136,15 @@
 				<string>S</string>
 			</dict>
 			<key>signature</key>
-			<string>MarqueeLabel-etmvkcrxotxcjgfjobpthzgqlult</string>
+			<string>NotificationBannerSwift-etmvkcrxotxcjgfjobpthzgqlult</string>
 			<key>timeStartedRecording</key>
-			<real>627019440.53519702</real>
+			<real>627096596.93154597</real>
 			<key>timeStoppedRecording</key>
-			<real>627019442.8793</real>
+			<real>627096602.69550896</real>
 			<key>title</key>
-			<string>Build target MarqueeLabel</string>
+			<string>Build target NotificationBannerSwift</string>
 			<key>uniqueIdentifier</key>
-			<string>68833894-F85F-451E-BD3D-23420FDD5193</string>
+			<string>66060E45-13C6-4EF6-83E0-5BE04F7226BE</string>
 		</dict>
 		<key>6ECC1F6B-E314-48D3-B0DA-8CE7FA2D9424</key>
 		<dict>
@@ -146,16 +174,16 @@
 			<key>uniqueIdentifier</key>
 			<string>6ECC1F6B-E314-48D3-B0DA-8CE7FA2D9424</string>
 		</dict>
-		<key>C80B98CE-34AF-4051-A0A3-32C96EFBF7F0</key>
+		<key>778B028F-7425-4158-B88A-2DE4D6B8D458</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
 			<key>documentTypeString</key>
 			<string>&lt;nil&gt;</string>
 			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>C80B98CE-34AF-4051-A0A3-32C96EFBF7F0.xcactivitylog</string>
+			<string>778B028F-7425-4158-B88A-2DE4D6B8D458.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -164,43 +192,15 @@
 				<string>S</string>
 			</dict>
 			<key>signature</key>
-			<string>SnapKit-etmvkcrxotxcjgfjobpthzgqlult</string>
+			<string>hiraganacoach-hbasnrbizzvllcenaednrbnxjqep</string>
 			<key>timeStartedRecording</key>
-			<real>627019440.52374804</real>
+			<real>627096590.78240705</real>
 			<key>timeStoppedRecording</key>
-			<real>627019442.87974501</real>
+			<real>627096613.31944203</real>
 			<key>title</key>
-			<string>Build target SnapKit</string>
+			<string>Build target hiraganacoach</string>
 			<key>uniqueIdentifier</key>
-			<string>C80B98CE-34AF-4051-A0A3-32C96EFBF7F0</string>
-		</dict>
-		<key>F03CD1C3-1D74-4C95-AB9F-3C0C4133C379</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>F03CD1C3-1D74-4C95-AB9F-3C0C4133C379.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>NotificationBannerSwift-etmvkcrxotxcjgfjobpthzgqlult</string>
-			<key>timeStartedRecording</key>
-			<real>627019442.30848205</real>
-			<key>timeStoppedRecording</key>
-			<real>627019443.05884004</real>
-			<key>title</key>
-			<string>Build target NotificationBannerSwift</string>
-			<key>uniqueIdentifier</key>
-			<string>F03CD1C3-1D74-4C95-AB9F-3C0C4133C379</string>
+			<string>778B028F-7425-4158-B88A-2DE4D6B8D458</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
