@@ -11,6 +11,8 @@
 		4E30B87360CC4FA23CB33E9F /* Pods_hiraganacoach.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A5D60E1B4816A25B0ACDAF /* Pods_hiraganacoach.framework */; };
 		68285AE625590C6A00ABC5B6 /* CoreDataInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68285AE525590C6A00ABC5B6 /* CoreDataInterface.swift */; };
 		68285B0225590EBC00ABC5B6 /* ApplicationDataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68285B0125590EBC00ABC5B6 /* ApplicationDataManagerTests.swift */; };
+		6828638C25671F7100055EA8 /* kanji_characters.json in Resources */ = {isa = PBXBuildFile; fileRef = 6828638B25671F7100055EA8 /* kanji_characters.json */; };
+		682B255025648E6300744A8C /* LanguageOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682B254F25648E6300744A8C /* LanguageOverview.swift */; };
 		6849DD98254B71B200FC8C86 /* Performance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6849DD97254B71B200FC8C86 /* Performance.swift */; };
 		685CF87A255DF151001E08F6 /* AssessmentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685CF879255DF151001E08F6 /* AssessmentsController.swift */; };
 		685CF88A255DF317001E08F6 /* AssessmentsControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685CF889255DF317001E08F6 /* AssessmentsControllerTests.swift */; };
@@ -83,6 +85,8 @@
 		68285AD9255905BF00ABC5B6 /* TestCoreDataManagerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoreDataManagerClass.swift; sourceTree = "<group>"; };
 		68285AE525590C6A00ABC5B6 /* CoreDataInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataInterface.swift; sourceTree = "<group>"; };
 		68285B0125590EBC00ABC5B6 /* ApplicationDataManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApplicationDataManagerTests.swift; path = hiraganacoachTests/ApplicationDataManagerTests.swift; sourceTree = SOURCE_ROOT; };
+		6828638B25671F7100055EA8 /* kanji_characters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kanji_characters.json; sourceTree = "<group>"; };
+		682B254F25648E6300744A8C /* LanguageOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOverview.swift; sourceTree = "<group>"; };
 		6849DD97254B71B200FC8C86 /* Performance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Performance.swift; sourceTree = "<group>"; };
 		685CF879255DF151001E08F6 /* AssessmentsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentsController.swift; sourceTree = "<group>"; };
 		685CF889255DF317001E08F6 /* AssessmentsControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentsControllerTests.swift; sourceTree = "<group>"; };
@@ -195,6 +199,34 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		682B25662565CC6700744A8C /* Hiragana */ = {
+			isa = PBXGroup;
+			children = (
+				68D1A2B82553D6BA00C49D91 /* hiragana_categories.json */,
+				68D1A2B32553C8A100C49D91 /* hiragana_contexts.json */,
+				68D1A2AB2553C5D200C49D91 /* hiragana_characters.json */,
+			);
+			name = Hiragana;
+			sourceTree = "<group>";
+		};
+		682B25672565CC8100744A8C /* Katakana */ = {
+			isa = PBXGroup;
+			children = (
+				687FF4432556242300A9F131 /* katakana_characters.json */,
+				687FF44B2556243300A9F131 /* katakana_categories.json */,
+				687FF4502556252000A9F131 /* katakana_contexts.json */,
+			);
+			name = Katakana;
+			sourceTree = "<group>";
+		};
+		682B25682565CCB200744A8C /* Kanji */ = {
+			isa = PBXGroup;
+			children = (
+				6828638B25671F7100055EA8 /* kanji_characters.json */,
+			);
+			name = Kanji;
+			sourceTree = "<group>";
+		};
 		6849DD8C254B6DEF00FC8C86 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +237,7 @@
 				68986ECD2540B240002C566A /* QuizView.swift */,
 				68692C1F25434009003828F5 /* AssessmentsView.swift */,
 				687FF425255605C800A9F131 /* LanguageSelectionView.swift */,
+				682B254F25648E6300744A8C /* LanguageOverview.swift */,
 				68986E9C2540B01B002C566A /* ContentView.swift */,
 			);
 			path = Views;
@@ -323,12 +356,9 @@
 		68D1A29A2553A3A000C49D91 /* Japanese */ = {
 			isa = PBXGroup;
 			children = (
-				68D1A2B82553D6BA00C49D91 /* hiragana_categories.json */,
-				68D1A2B32553C8A100C49D91 /* hiragana_contexts.json */,
-				68D1A2AB2553C5D200C49D91 /* hiragana_characters.json */,
-				687FF4432556242300A9F131 /* katakana_characters.json */,
-				687FF44B2556243300A9F131 /* katakana_categories.json */,
-				687FF4502556252000A9F131 /* katakana_contexts.json */,
+				682B25682565CCB200744A8C /* Kanji */,
+				682B25672565CC8100744A8C /* Katakana */,
+				682B25662565CC6700744A8C /* Hiragana */,
 			);
 			path = Japanese;
 			sourceTree = "<group>";
@@ -501,6 +531,7 @@
 				685CF8C0255F5CA1001E08F6 /* bopomofo_characters.json in Resources */,
 				68D1A2B42553C8A100C49D91 /* hiragana_contexts.json in Resources */,
 				68D1A2CE2553DA6B00C49D91 /* korean_characters.json in Resources */,
+				6828638C25671F7100055EA8 /* kanji_characters.json in Resources */,
 				68E7FFB1255A0A1700FC9A85 /* test_contexts.json in Resources */,
 				687FF46A25567C0E00A9F131 /* chinese_contexts.json in Resources */,
 				68D1A2B92553D6BA00C49D91 /* hiragana_categories.json in Resources */,
@@ -652,6 +683,7 @@
 				688059C92550D9AB00D95404 /* SettingsView.swift in Sources */,
 				685CF8AA255E4E56001E08F6 /* TestCoreDataManagerClass.swift in Sources */,
 				68D1A2A42553ADAE00C49D91 /* JSONMethods.swift in Sources */,
+				682B255025648E6300744A8C /* LanguageOverview.swift in Sources */,
 				688059D72550FEB700D95404 /* Assessment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
