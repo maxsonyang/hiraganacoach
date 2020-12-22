@@ -1,10 +1,8 @@
 #  Hiragana Coach
 
 <div style="display: flex; flex-direction: row; justify-content: space-around">
-    <img src="language_coach_quiz_interface.png" style="max-width: 165px;
-    max-height: 358px;">
-    <img src="language_coach_selection_interface.png" style="max-width: 165px;
-    max-height: 358px;">
+    <img src="language_coach_quiz_interface.png" width="165px" height="358px">
+    <img src="language_coach_selection_interface.png" width="165px" height="358px">
 </div>
 
 ## About
